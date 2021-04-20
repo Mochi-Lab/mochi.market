@@ -8,6 +8,7 @@ import MomaToken from 'components/MomaToken';
 import UtilityFeatures from 'components/UtilityFeatures';
 import Roadmap from 'components/Roadmap';
 import MochiTeam from 'components/MochiTeam';
+import Advisors from 'components/Advisors';
 import Partners from 'components/Partners';
 import Footer from 'components/Footer';
 
@@ -24,6 +25,7 @@ export default function LandingPage() {
       <UtilityFeatures />
       <Roadmap />
       <MochiTeam />
+      <Advisors />
       <Partners />
       <Footer />
     </div>
