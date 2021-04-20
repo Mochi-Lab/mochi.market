@@ -1,0 +1,119 @@
+.faq {
+  background: linear-gradient(180deg, #fe8b8d 0%, #e97397 100%);
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.questions {
+  padding-bottom: 50px;
+}
+
+.title-faq {
+  font-family: Sassoon Infant Pro;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 133px;
+}
+
+.item {
+  margin: 0 auto;
+}
+
+.question__content {
+  position: relative;
+  border: 1px solid #753177;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.question:before {
+  position: absolute;
+  content: '';
+  background: linear-gradient(89.9deg, #fb3767 0.42%, #753177 100.25%);
+  z-index: 1;
+  display: block;
+  top: 10px;
+  left: 23px;
+  width: calc(100% - 30px);
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid #753177;
+  box-sizing: border-box;
+}
+
+.item {
+  margin-bottom: 18px;
+}
+
+.up-icon {
+  position: absolute;
+  display: inline-block;
+  z-index: 2;
+  right: 16px;
+  top: calc((100% - 65px) / 2);
+}
+
+.up-icon:hover {
+  cursor: pointer;
+}
+
+.rotate-icon {
+  top: calc((100% - 17px) / 2);
+  transform: rotate(-180deg);
+}
+
+.up-icon-1 {
+  position: absolute;
+  display: inline-block;
+  z-index: 2;
+  right: 16px;
+  /* top: calc((100% - 280px) / 2); */
+  top: 10%;
+}
+
+.up-icon-2 {
+  position: absolute;
+  display: inline-block;
+  z-index: 2;
+  right: 16px;
+  top: 12%;
+  /* top: calc((100% - 175px) / 2); */
+}
+
+.title-question {
+  max-width: 80%;
+  display: inline-block;
+  font-family: Sassoon Infant Pro;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120.7%;
+  color: #753177;
+  margin: 23px auto 20px 4%;
+  z-index: 1;
+}
+
+.answer {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120.7%;
+  color: #17173a;
+  margin: 0px 30px 14px 4%;
+}
+
+.answer a {
+  text-decoration: none;
+  color: #f93767;
+}
