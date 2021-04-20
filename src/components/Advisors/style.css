@@ -1,18 +1,31 @@
+.advisors {
+  flex-direction: column;
+  padding: 3rem 0 8rem 0;
+}
+
 .footer-card > div > img {
   width: 16px;
   height: 16px;
 }
+
 .footer-card > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 25px;
   height: 25px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .member-image {
   width: 160px;
   height: 160px;
   margin: auto;
-  
+}
+
+.member-card {
+  margin-top: 50px;
 }
 
 .member-image > img {
@@ -52,12 +65,4 @@
   font-size: 16px;
   line-height: 120.7%;
   text-align: center;
-}
-
-.image-area > div {
-  margin-bottom: 50px;
-}
-
-.footer-card > div {
-  cursor: pointer;
 }

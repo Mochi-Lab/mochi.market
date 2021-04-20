@@ -41,6 +41,10 @@
   background: #17173A;
 }
 
+.background-light {
+  background: #E9FFF9;
+}
+
 .big-title {
   margin-bottom: 64px;
   font-style: normal;
@@ -58,8 +62,16 @@
   font-family: 'DM Sans', sans-serif;
 }
 
-.lc-color{
+.lc-color {
   color: #E9FFF9;
+}
+
+.dark-color {
+  color: #17173A;
+}
+
+.purple-color {
+  color: #753177;
 }
 
 .rounded-xl {

@@ -1,0 +1,19 @@
+.team-purble {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: linear-gradient(89.9deg, #FB3767 0.42%, #753177 100.25%);
+  border: 1px solid #17173A;
+  box-sizing: border-box;
+  border-radius: 5px;
+  z-index: 0;
+}
+
+.mochiteam {
+  flex-direction: column;
+  padding: 3rem 0 8rem 0;
+}
+
+.memimg {
+  object-position: top;
+}

@@ -47,10 +47,10 @@ const advisors = [
   },
 ];
 
-export function Advidor({ data }) {
+function Advidor({ data }) {
   let { image, name, role, linkedin, twitter } = data;
   return (
-    <div className='member-card '>
+    <div className='member-card'>
       <div className='center'>
         <div style={{ position: 'relative', marginBottom: '24px' }}>
           <div className='member-image img-bg' />
@@ -63,10 +63,10 @@ export function Advidor({ data }) {
       <p className='name lc-color'>{name}</p>
       <p className='role lc-color'>{role}</p>
       <div className='footer-card row center'>
-        <div className='center background-dark' style={{ marginRight: '20px' }}>
+        <div className='background-dark' style={{ marginRight: '20px' }}>
           <img src={iconLinkedin} alt='linkedin' onClick={() => window.open(linkedin)} />
         </div>
-        <div className='center background-dark'>
+        <div className='background-dark'>
           <img src={iconTwitter} alt='twitter' onClick={() => window.open(twitter)} />
         </div>
       </div>
@@ -77,7 +77,7 @@ export function Advidor({ data }) {
 export default function Advisors() {
   return (
     <div className='background-dark'>
-      <div className='container'>
+      <div className='advisors container'>
         <div className='col-12'>
           <p className='big-title lc-color'>Advisors</p>
         </div>
