@@ -1,5 +1,5 @@
 import './style.css';
 
-export default function WeBringTo() {
-  return <div className='we-bring-to'></div>;
+export default function UtilityFeatures() {
+  return <div className='utility-features'></div>;
 }

@@ -1,5 +1,5 @@
 import './style.css';
 
-export default function Community() {
-  return <div className='community'></div>;
+export default function Introductions() {
+  return <div className='introductions'></div>;
 }

@@ -1,5 +1,5 @@
 import './style.css';
 
-export default function MainMeal() {
-  return <div className='main-meal'></div>;
+export default function MochiTeam() {
+  return <div className='mochi-team'></div>;
 }
