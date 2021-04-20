@@ -1,0 +1,33 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+@font-face {
+  font-family: 'Sassoon Infant Pro';
+  src: url('./assets/fonts/SassoonInfantRgPro-Bold.eot');
+  src: local('Sassoon Infant Pro Bold'), local('SassoonInfantRgPro-Bold'),
+    url('./assets/fonts/SassoonInfantRgPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/SassoonInfantRgPro-Bold.woff2') format('woff2'),
+    url('./assets/fonts/SassoonInfantRgPro-Bold.woff') format('woff'),
+    url('./assets/fonts/SassoonInfantRgPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sassoon Infant Pro';
+  src: url('./assets/fonts/SassoonInfantRgPro.eot');
+  src: local('Sassoon Infant Pro'), local('SassoonInfantRgPro'),
+    url('./assets/fonts/SassoonInfantRgPro.eot?#iefix') format('embedded-opentype'),
+    url('./assets/fonts/SassoonInfantRgPro.woff2') format('woff2'),
+    url('./assets/fonts/SassoonInfantRgPro.woff') format('woff'),
+    url('./assets/fonts/SassoonInfantRgPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}

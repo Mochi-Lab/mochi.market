@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Sassoon Infant Pro';
+    src: url('SassoonInfantRgPro-Bold.eot');
+    src: local('Sassoon Infant Pro Bold'), local('SassoonInfantRgPro-Bold'),
+        url('SassoonInfantRgPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SassoonInfantRgPro-Bold.woff2') format('woff2'),
+        url('SassoonInfantRgPro-Bold.woff') format('woff'),
+        url('SassoonInfantRgPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sassoon Infant Pro';
+    src: url('SassoonInfantRgPro.eot');
+    src: local('Sassoon Infant Pro'), local('SassoonInfantRgPro'),
+        url('SassoonInfantRgPro.eot?#iefix') format('embedded-opentype'),
+        url('SassoonInfantRgPro.woff2') format('woff2'),
+        url('SassoonInfantRgPro.woff') format('woff'),
+        url('SassoonInfantRgPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
