@@ -1,4 +1,5 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 @font-face {
   font-family: 'Sassoon Infant Pro';
@@ -30,4 +31,56 @@
 
 .hidden {
   display: none;
+}
+
+.background-pink {
+  background: linear-gradient(180deg, #FE8B8D 0%, #E97397 100%);
+}
+
+.background-dark {
+  background: #17173A;
+}
+
+.background-light {
+  background: #E9FFF9;
+}
+
+.background-light-pink {
+  background: #FEEBED;
+}
+
+.big-title {
+  font-family: 'Sassoon Infant Pro';
+  margin-bottom: 64px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 120.7%;
+  text-align: center;
+}
+
+.sans-font {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.lc-color {
+  color: #E9FFF9;
+}
+
+.dark-color {
+  color: #17173A;
+}
+
+.purple-color {
+  color: #753177;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }

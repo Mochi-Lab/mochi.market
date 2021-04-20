@@ -8,6 +8,8 @@ import MomaToken from 'components/MomaToken';
 import UtilityFeatures from 'components/UtilityFeatures';
 import Roadmap from 'components/Roadmap';
 import MochiTeam from 'components/MochiTeam';
+import Advisors from 'components/Advisors';
+import Partners from 'components/Partners';
 import Footer from 'components/Footer';
 
 export default function LandingPage() {
@@ -15,14 +17,16 @@ export default function LandingPage() {
     <div className='landing-page'>
       <Navbar />
       <Introductions />
-      <Community />
       <TheProblems />
       <WeBringTo />
       <MainMeal />
       <MomaToken />
       <UtilityFeatures />
+      <Community />
       <Roadmap />
       <MochiTeam />
+      <Advisors />
+      <Partners />
       <Footer />
     </div>
   );

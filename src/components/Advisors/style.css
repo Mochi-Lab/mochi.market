@@ -1,0 +1,70 @@
+.advisors {
+  flex-direction: column;
+  padding: 3rem 0 8rem 0;
+}
+
+.footer-card > div > img {
+  width: 16px;
+  height: 16px;
+}
+
+.footer-card > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.member-image {
+  width: 160px;
+  height: 160px;
+  margin: auto;
+}
+
+.member-card {
+  margin-top: 50px;
+}
+
+.member-image > img {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  object-fit: cover;
+  border: 1px solid #17173A;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.img-bg {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #E9FFF9;
+  border: 1px solid #17173A;
+  box-sizing: border-box;
+  border-radius: 5px;
+  z-index: 0;
+}
+
+.name {
+  font-family: 'Sassoon Infant Pro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 120.7%;
+  text-align: center;
+}
+
+.role {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120.7%;
+  text-align: center;
+}
