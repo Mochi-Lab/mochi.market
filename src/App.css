@@ -37,10 +37,36 @@
   background: linear-gradient(180deg, #FE8B8D 0%, #E97397 100%);
 }
 
+.background-dark {
+  background: #17173A;
+}
+
+.big-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 120.7%;
+  text-align: center;
+}
+
 .sasoon-font {
   font-family: Sassoon Infant Pro;
 }
 
 .sans-font {
   font-family: 'DM Sans', sans-serif;
+}
+
+.lc-color{
+  color: #E9FFF9;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
