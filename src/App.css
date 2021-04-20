@@ -31,3 +31,16 @@
 .hidden {
   display: none;
 }
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+.background-pink {
+  background: linear-gradient(180deg, #FE8B8D 0%, #E97397 100%);
+}
+
+.sasoon-font {
+  font-family: Sassoon Infant Pro;
+}
+
+.sans-font {
+  font-family: 'DM Sans', sans-serif;
+}
