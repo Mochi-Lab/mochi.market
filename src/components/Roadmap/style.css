@@ -1,0 +1,46 @@
+.timeline-box {
+  max-width: 160px;
+  text-align: center;
+}
+
+.roadmap {
+  padding: 3rem 0 3rem 0;
+}
+
+.line {
+  position: relative;
+  border-radius: 2px;
+  height: 2px;
+  background-color: #753177;
+  border: 2px solid #753177;
+}
+
+.dot { 
+  position: absolute;
+  top: -12px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  background: linear-gradient(89.9deg, #FB3767 0.42%, #753177 100.25%);
+  border-radius: 50%;
+}
+
+.inactive {
+  width: 20px;
+  height: 20px;
+  background-color: #FEEBED;
+  border-radius: 50%;
+}
+
+.time-stage {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.underline {
+  margin-top: 20px;
+}

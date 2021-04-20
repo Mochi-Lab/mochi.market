@@ -21,6 +21,8 @@ export default function Footer() {
                 <p className='fttn-ct sans-font mb-4'>Tokenomics</p>
                 <p className='fttn-ct sans-font mb-4'>Roadmap</p>
                 <p className='fttn-ct sans-font'>Team</p>
+                <p className='fttn-ct sans-font'>Privacy Policy</p>
+                <p className='fttn-ct sans-font'>Tern and Conditions</p>
               </div>
               <div className='col-4'>
                 <p className='fttn-hd mb-4'>Documents</p>
