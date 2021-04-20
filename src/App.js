@@ -1,7 +1,8 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import LandingPage from './views/LandingPage';
-import FAQ from './components/FAQ';
-import PrivacyPolicyAndTermsConditions from './components/PrivacyPolicyAndTermsConditions';
+import PrivacyPolicyAndTermsConditions from './views/PrivacyPolicyAndTermsConditions';
+import FAQ from './views/FAQ';
+import Papers from './views/Papers';
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Switch>
           <Route exact path='/' component={LandingPage} />
           <Route exact path='/faq' component={FAQ} />
+          <Route exact path='/papers' component={Papers} />
           <Route
             exact
             path='/privacy-policy-and-terms-conditions'

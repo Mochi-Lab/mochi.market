@@ -1,0 +1,61 @@
+.papers {
+  padding: 5rem 0;
+}
+.papers .title-paper h1 {
+  text-align: center;
+  color: #753177;
+  font-weight: bold;
+  margin: 3rem 0 4rem 0;
+}
+
+.papers .list-item-papers .item-paper .content-item-paper {
+  position: relative;
+  border: 1px solid #753177;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  z-index: 2;
+  padding: 2rem;
+  box-shadow: #e97397;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px;
+  transition: all 0.6s;
+}
+.papers .list-item-papers .item-paper .content-item-paper:hover {
+  transition: all 0.6s;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px;
+}
+
+.papers .list-item-papers .item-paper {
+  text-align: center;
+  height: 100%;
+  cursor: pointer;
+}
+
+.papers .list-item-papers .item-paper .content-item-paper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: stretch;
+  background-color: #753177;
+  height: 275px;
+}
+
+.papers .list-item-papers .item-paper .content-item-paper img {
+  margin-bottom: 2.2rem;
+  width: 100px;
+  text-align: center;
+}
+.papers .list-item-papers .item-paper .content-item-paper .name-paper {
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .papers .list-item-papers .item-paper {
+    text-align: center;
+    margin: 2rem 0;
+  }
+}

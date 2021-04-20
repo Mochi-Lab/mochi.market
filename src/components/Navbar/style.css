@@ -1,0 +1,126 @@
+.navbar-menu {
+  padding: 1.5rem 0;
+  background: #feebed;
+}
+
+.content-navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+}
+.content-navbar .left-navbar {
+  max-width: 200px;
+}
+.content-navbar .left-navbar img {
+  width: 160px;
+}
+.content-navbar .right-navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+}
+.content-navbar .right-navbar .route-papers,
+.content-navbar .right-navbar .route-faq {
+  margin: 0 2rem;
+}
+
+.content-navbar .right-navbar {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #753177;
+}
+.content-navbar .right-navbar a {
+  color: #753177;
+}
+.content-navbar .right-navbar a:hover {
+  text-decoration: none;
+}
+
+.content-navbar .right-navbar .community-channels {
+  margin-left: 5rem;
+}
+.content-navbar .right-navbar .community-channels a {
+  margin: 0 1rem;
+}
+
+.navbar-menu .btn-bar {
+  display: none;
+  color: #753177;
+  font-weight: bold;
+  font-size: large;
+  z-index: 4;
+  transition: all 0.5s;
+}
+
+@media (max-width: 992px) {
+  .navbar-menu .btn-bar {
+    display: block;
+    cursor: pointer;
+  }
+
+  .landing-page {
+    position: relative;
+  }
+
+  .content-navbar .right-navbar {
+    transition: all 0.5s;
+    position: absolute;
+    left: -150%;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    padding: 2rem 0 2rem 0;
+    background-color: white;
+  }
+
+  .content-navbar .right-navbar.active {
+    transition: all 0.5s;
+    position: absolute;
+    left: 0;
+  }
+
+  .content-navbar .right-navbar {
+    display: block;
+  }
+
+  .content-navbar .right-navbar .route-papers,
+  .content-navbar .right-navbar .route-faq {
+    margin-left: 0;
+    padding: 0.75rem 0 0.75rem 3rem;
+  }
+
+  .content-navbar .right-navbar .route-papers:hover,
+  .content-navbar .right-navbar .route-faq:hover {
+    transition: all 0.5s;
+    background: linear-gradient(100.48deg, #e4609e 7.34%, rgba(228, 96, 158, 0) 100.74%);
+    color: white;
+  }
+
+  .content-navbar .right-navbar .community-channels {
+    margin-left: 0;
+    padding: 0.75rem 0 0.75rem 3rem;
+  }
+  .content-navbar .right-navbar .community-channels:hover {
+    transition: all 0.5s;
+    background: linear-gradient(100.48deg, #e4609e 7.34%, rgba(228, 96, 158, 0) 100.74%);
+    color: white;
+  }
+  .content-navbar .right-navbar .community-channels:hover a svg path {
+    transition: all 0.5s;
+    fill: white;
+  }
+
+  .content-navbar .right-navbar .community-channels a {
+    margin: 0 0.5rem;
+  }
+  .content-navbar .right-navbar .community-channels a:first-child {
+    margin-left: 0;
+  }
+}
