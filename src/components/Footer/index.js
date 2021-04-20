@@ -17,26 +17,25 @@ export default function Footer() {
             <div className='row fttn'>
               <div className='col-4'>
                 <p className='fttn-hd mb-4'>Navigation</p>
-                <p className='fttn-ct sans-font mb-4'>Product</p>
-                <p className='fttn-ct sans-font mb-4'>Tokenomics</p>
-                <p className='fttn-ct sans-font mb-4'>Roadmap</p>
-                <p className='fttn-ct sans-font'>Team</p>
-                <p className='fttn-ct sans-font'>Privacy Policy</p>
-                <p className='fttn-ct sans-font'>Tern and Conditions</p>
+                <p className='fttn-ct mb-4'>Product</p>
+                <p className='fttn-ct mb-4'>Tokenomics</p>
+                <p className='fttn-ct mb-4'>Roadmap</p>
+                <p className='fttn-ct'>Team</p>
+                <p className='fttn-ct'>Privacy Policy & Tern and Conditions</p>
               </div>
               <div className='col-4'>
                 <p className='fttn-hd mb-4'>Documents</p>
-                <p className='fttn-ct sans-font mb-4'>One Page</p>
-                <p className='fttn-ct sans-font mb-4'>Pitch Deck</p>
-                <p className='fttn-ct sans-font mb-4'>White Paper</p>
-                <p className='fttn-ct sans-font'>Light Paper</p>
+                <p className='fttn-ct mb-4'>One Page</p>
+                <p className='fttn-ct mb-4'>Pitch Deck</p>
+                <p className='fttn-ct mb-4'>White Paper</p>
+                <p className='fttn-ct'>Light Paper</p>
               </div>
               <div className='col-4'>
                 <p className='fttn-hd mb-4'>Community</p>
-                <p className='fttn-ct sans-font mb-4'>Telegram</p>
-                <p className='fttn-ct sans-font mb-4'>Twitter</p>
-                <p className='fttn-ct sans-font mb-4'>Medium</p>
-                <p className='fttn-ct sans-font'>Discord</p>
+                <p className='fttn-ct mb-4'>Telegram</p>
+                <p className='fttn-ct mb-4'>Twitter</p>
+                <p className='fttn-ct mb-4'>Medium</p>
+                <p className='fttn-ct'>Discord</p>
               </div>
             </div>
           </div>

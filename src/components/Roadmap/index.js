@@ -39,7 +39,7 @@ export default function Roadmap() {
             {timelines.map((timeline, index) => (
               <div key={index} className='col-lg-2 center'>
                 <div className='dot '>
-                  <div className={`${index === 2 ? '' : 'inactive'}`} />
+                  <div className={`${index === 1 ? '' : 'inactive'}`} />
                 </div>
               </div>
             ))}

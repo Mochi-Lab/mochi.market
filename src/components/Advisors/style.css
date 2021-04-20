@@ -52,6 +52,7 @@
 }
 
 .name {
+  font-family: 'Sassoon Infant Pro';
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -60,6 +61,7 @@
 }
 
 .role {
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

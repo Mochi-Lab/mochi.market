@@ -10,6 +10,7 @@
 }
 
 .company-name {
+  font-family: 'Sassoon Infant Pro';
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -17,6 +18,7 @@
 }
 
 .company-address {
+  font-family: 'Sassoon Infant Pro';
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -24,6 +26,7 @@
 }
 
 .fttn-hd {
+  font-family: 'Sassoon Infant Pro';
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -31,6 +34,7 @@
 }
 
 .fttn-ct {
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
