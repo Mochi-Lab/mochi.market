@@ -17,12 +17,12 @@ export default function LandingPage() {
     <div className='landing-page'>
       <Navbar />
       <Introductions />
-      <Community />
       <TheProblems />
       <WeBringTo />
       <MainMeal />
       <MomaToken />
       <UtilityFeatures />
+      <Community />
       <Roadmap />
       <MochiTeam />
       <Advisors />

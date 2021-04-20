@@ -1,5 +1,6 @@
 import './style.css';
 import logo from 'assets/img/logo.png';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -21,7 +22,9 @@ export default function Footer() {
                 <p className='fttn-ct mb-4'>Tokenomics</p>
                 <p className='fttn-ct mb-4'>Roadmap</p>
                 <p className='fttn-ct'>Team</p>
-                <p className='fttn-ct'>Privacy Policy & Tern and Conditions</p>
+                <Link to='/privacy-policy-and-terms-conditions'>
+                  <p className='fttn-ct'>Privacy Policy & Tern and Conditions</p>
+                </Link>
               </div>
               <div className='col-4'>
                 <p className='fttn-hd mb-4'>Documents</p>
