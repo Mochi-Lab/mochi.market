@@ -35,7 +35,7 @@
   top: 0px;
   left: 0px;
   object-fit: cover;
-  border: 1px solid #17173A;
+  border: 1px solid #17173a;
   box-sizing: border-box;
   border-radius: 5px;
 }
@@ -44,8 +44,8 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  background: #E9FFF9;
-  border: 1px solid #17173A;
+  background: #e9fff9;
+  border: 1px solid #17173a;
   box-sizing: border-box;
   border-radius: 5px;
   z-index: 0;
@@ -54,10 +54,11 @@
 .name {
   font-family: 'Sassoon Infant Pro';
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 24px;
   line-height: 120.7%;
   text-align: center;
+  white-space: nowrap;
 }
 
 .role {
@@ -67,4 +68,26 @@
   font-size: 16px;
   line-height: 120.7%;
   text-align: center;
+  white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+  .name {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .role {
+    font-size: 10.3561px;
+  }
+
+  .member-image {
+    width: 109.5px;
+    height: 109.5px;
+  }
+
+  .member-image > img {
+    width: 109.5px;
+    height: 109.5px;
+  }
 }

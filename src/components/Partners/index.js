@@ -16,87 +16,76 @@ const members = [
     image: magnus,
     url: 'https://magnusdigitalassets.com/',
     name: 'magnus capital',
-    height: '76px',
-    width: '144px',
+    className: 'magnus',
   },
   {
     image: raptor,
     url: 'https://www.raptorcapital.io/',
     name: 'raptor capital',
-    height: '55px',
-    width: '178px',
+    className: 'raptor',
   },
   {
     image: btxCapital,
     url: 'https://btx.capital/',
     name: 'btx capital',
-    height: '23px',
-    width: '219px',
+    className: 'btxCapital',
   },
   {
     image: x21,
     url: 'https://x21digital.com/',
     name: 'x21 digital',
-    height: '82px',
-    width: '101px',
+    className: 'x21',
   },
   {
     image: moonWhale,
     url: 'https://moonwhale.ventures/',
     name: 'moonwhale',
-    height: '89px',
-    width: '129px',
+    className: 'moonWhale',
   },
   {
     image: cinchBlock,
     url: 'https://www.cinchblock.com/',
     name: 'cinch block',
-    height: '35px',
-    width: '182px',
+    className: 'cinchBlock',
   },
   {
     image: seedify,
     url: 'https://seedify.fund/',
     name: 'seedify fund',
-    height: '35px',
-    width: '220px',
+    className: 'seedify',
   },
   {
     image: existential,
     url: 'https://exst.vc/',
     name: 'existential capital',
-    height: '46px',
-    width: '203px',
+    className: 'existential',
   },
   {
     image: blocksync,
     url: 'https://www.blocksync.com/',
     name: 'blocksync ventures',
-    height: '55px',
-    width: '188px',
+    className: 'blocksync',
   },
   {
     image: blockStar,
     url: 'https://blockstar.vc/',
     name: 'block star',
-    height: '41px',
-    width: '152px',
+    className: 'blockStar',
   },
   {
     image: mercurius,
     url: '',
     name: 'mercurius',
-    height: '61px',
-    width: '215px',
+    className: 'mercurius',
   },
 ];
 
 function Partner({ data }) {
-  const { image, name, url, height, width } = data;
+  const { image, name, url, className } = data;
   return (
     <a className='center' href={url} target='_blank' rel='noreferrer'>
       <div className='partner-card'>
-        <img style={{ height, width }} src={image} alt={name} />
+        <img className={className} src={image} alt={name} />
       </div>
     </a>
   );
@@ -112,7 +101,7 @@ export default function Partners() {
         <div>
           <div className='image-area row'>
             {members.map((partner, index) => (
-              <div className='col-6 col-md-4 col-lg-3 center' key={index}>
+              <div className='col-4 col-md-4 col-lg-3 center' key={index}>
                 <Partner data={partner} />
               </div>
             ))}

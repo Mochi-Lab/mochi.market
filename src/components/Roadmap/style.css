@@ -5,7 +5,7 @@
 }
 
 .roadmap {
-  padding: 3rem 0 3rem 0;
+  padding: 3rem 0 1rem 0;
 }
 
 .line {
@@ -16,7 +16,7 @@
   border: 2px solid #753177;
 }
 
-.dot { 
+.dot {
   position: absolute;
   top: -12px;
   margin: auto;
@@ -25,14 +25,14 @@
   align-items: center;
   width: 25px;
   height: 25px;
-  background: linear-gradient(89.9deg, #FB3767 0.42%, #753177 100.25%);
+  background: linear-gradient(89.9deg, #fb3767 0.42%, #753177 100.25%);
   border-radius: 50%;
 }
 
 .inactive {
   width: 20px;
   height: 20px;
-  background-color: #FEEBED;
+  background-color: #feebed;
   border-radius: 50%;
 }
 
@@ -42,6 +42,41 @@
   font-size: 24px;
 }
 
+.time-content {
+  font-family: 'DM Sans';
+  font-size: 16px;
+}
+
 .underline {
   margin-top: 20px;
+}
+
+.carousel {
+  height: 200px;
+}
+
+.carousel-indicators > li {
+  background: rgba(251, 55, 103, 0.45) !important;
+  width: 10px !important;
+  height: 10px !important;
+  border: 0 !important;
+  border-radius: 50%;
+}
+
+.carousel-indicators > .active {
+  background: #fb3767;
+}
+
+@media (max-width: 767px) {
+  .carousel {
+    height: 170px;
+  }
+
+  .time-stage {
+    font-size: 15px;
+  }
+
+  .time-content {
+    font-size: 10px;
+  }
 }
