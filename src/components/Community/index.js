@@ -14,7 +14,7 @@ export default function Community() {
       <div className='icon-area'>
         <div className='row'>
           <a
-            className='col-lg-3 center'
+            className='col-3 center'
             href='https://twitter.com/MarketMochi'
             target='_blank'
             rel='noreferrer'
@@ -24,7 +24,7 @@ export default function Community() {
             </div>
           </a>
           <a
-            className='col-lg-3 center'
+            className='col-3 center'
             href='https://t.me/mochi_market'
             target='_blank'
             rel='noreferrer'
@@ -34,7 +34,7 @@ export default function Community() {
             </div>
           </a>
           <a
-            className='col-lg-3 center'
+            className='col-3 center'
             href='https://mochi-market.medium.com/'
             target='_blank'
             rel='noreferrer'
@@ -44,7 +44,7 @@ export default function Community() {
             </div>
           </a>
           <a
-            className='col-lg-3 center'
+            className='col-3 center'
             href='https://discord.gg/ZHq7arVS'
             target='_blank'
             rel='noreferrer'

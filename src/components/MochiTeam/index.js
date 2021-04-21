@@ -10,7 +10,7 @@ import tan from 'assets/member/tan.png';
 import andrew from 'assets/member/andrew.jpg';
 
 import iconLinkedin from 'assets/icons/linkedIn.svg';
-import iconTwitter from 'assets/icons/twitter.svg';
+import iconTwitter from 'assets/icons/red-tw.svg';
 
 const members = [
   {

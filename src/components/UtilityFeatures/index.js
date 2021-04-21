@@ -1,5 +1,6 @@
 import './style.css';
 import utilfeat from 'assets/img/UtilityFeatures.png';
+import smUtilFeat from 'assets/img/sm-circle.png';
 import diamon from 'assets/img/diamon.png';
 import liquidity from 'assets/img/liquidity.png';
 import sales from 'assets/img/sales.png';
@@ -15,10 +16,13 @@ export default function UtilityFeatures() {
             The $MOMA tokens give access to a number of special services on the platform, such as:
           </p>
         </div>
-        <div className='col-12' style={{ position: 'relative' }}>
+        <div className='col-12 fecen' style={{ position: 'relative' }}>
           <div className='center pt-4'>
-            <img src={utilfeat} alt='utilfeat' />
-            <p></p>
+            {window.innerWidth < 1023 ? (
+              <img className='center' src={smUtilFeat} alt='utilfeat' />
+            ) : (
+              <img src={utilfeat} alt='utilfeat' />
+            )}
           </div>
           <div className='cera center'>
             <div style={{ width: '100%', height: '70%' }}>
@@ -34,7 +38,7 @@ export default function UtilityFeatures() {
                     </div>
                   </div>
                 </div>
-                <div />
+                {/* <div /> */}
                 <div className='center'>
                   <div className='relcar'>
                     <div className='utili-card-back' />
@@ -53,12 +57,14 @@ export default function UtilityFeatures() {
                   <div className='relcar'>
                     <div className='utili-card-back' />
                     <div className='utili-card'>
-                      <img src={liquidity} alt='liquidity' />
+                      <div className='liquidity-box'>
+                        <img className='liquidity' src={liquidity} alt='liquidity' />
+                      </div>
                       <p className='lc-color'>Provide liquidity to earn more $MOMA.</p>
                     </div>
                   </div>
                 </div>
-                <div />
+                {/* <div /> */}
                 <div className='center'>
                   <div className='relcar'>
                     <div className='utili-card-back' />

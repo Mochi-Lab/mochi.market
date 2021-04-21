@@ -31,6 +31,61 @@
   box-shadow: 0 10px 20px 0 rgb(146 146 146 / 21%);
 }
 
+.magnus {
+  height: 76px;
+  width: 144px;
+}
+
+.raptor {
+  height: 55px;
+  width: 178px;
+}
+
+.btxCapital {
+  height: 23px;
+  width: 219px;
+}
+
+.x21 {
+  height: 82px;
+  width: 101px;
+}
+
+.moonWhale {
+  height: 89px;
+  width: 129px;
+}
+
+.cinchBlock {
+  height: 35px;
+  width: 182px;
+}
+
+.seedify {
+  height: 35px;
+  width: 220px;
+}
+
+.existential {
+  height: 46px;
+  width: 203px;
+}
+
+.blocksync {
+  height: 55px;
+  width: 188px;
+}
+
+.blockStar {
+  height: 41px;
+  width: 152px;
+}
+
+.mercurius {
+  height: 61px;
+  width: 215px;
+}
+
 @media (max-width: 992px) {
   .partner-card {
     padding: 0;
@@ -39,11 +94,62 @@
 
 @media (max-width: 767px) {
   .partner-card {
-    padding: 0 1.5rem;
+    width: 104.21px;
+    height: 48.24px;
+    margin-bottom: 19px;
   }
 
-  .partner-card > img {
-    width: 100%;
-    height: auto;
+  .magnus {
+    height: 28.8px;
+    width: 54.6px;
+  }
+
+  .raptor {
+    height: 21.8px;
+    width: 68px;
+  }
+
+  .btxCapital {
+    height: 9.52px;
+    width: 83.44px;
+  }
+
+  .x21 {
+    width: 40px;
+  }
+
+  .moonWhale {
+    height: 36.27px;
+    width: 53.6px;
+  }
+
+  .cinchBlock {
+    height: 14.4px;
+    width: 69.2px;
+  }
+
+  .seedify {
+    height: 14.4px;
+    width: 79.1px;
+  }
+
+  .existential {
+    height: 17.1px;
+    width: 78.62px;
+  }
+
+  .blocksync {
+    height: 18.75px;
+    width: 71.32px;
+  }
+
+  .blockStar {
+    height: 15.7px;
+    width: 57.5px;
+  }
+
+  .mercurius {
+    height: 22.25px;
+    width: 81.58px;
   }
 }

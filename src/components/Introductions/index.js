@@ -26,7 +26,7 @@ export default function Introductions() {
             rel='noopener noreferrer'
             href={`${process.env.PUBLIC_URL}/WhitePaper.pdf`}
           >
-            <button type='button' class='btn btn-download-paper'>
+            <button type='button' className='btn btn-download-paper'>
               Download Whitepaper
             </button>
           </a>

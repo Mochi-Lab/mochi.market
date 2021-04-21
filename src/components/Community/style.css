@@ -43,3 +43,9 @@
   width: 40%;
   margin: auto;
 }
+
+@media (max-width: 992px) {
+  .icon-area {
+    width: 80%;
+  }
+}

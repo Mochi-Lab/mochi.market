@@ -1,5 +1,5 @@
 .footer {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer-logo {
@@ -34,7 +34,7 @@
 }
 
 .fttn-ct {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: bold;
@@ -42,6 +42,29 @@
   line-height: 120%;
 }
 
-.footer-pt{
-  padding: 180px 0px 100px 0px;
+.footer-pt {
+  padding: 5rem 0 5rem 0;
+}
+
+@media (max-width: 767px) {
+  .footer-logo {
+    width: 134.71px;
+    height: 44.62px;
+  }
+
+  .company-name {
+    font-size: 20.2064px;
+  }
+
+  .company-address {
+    font-size: 15.1548px;
+  }
+
+  .fttn-hd {
+    font-size: 24px;
+  }
+
+  .fttn-ct {
+    font-size: 16px;
+  }
 }
