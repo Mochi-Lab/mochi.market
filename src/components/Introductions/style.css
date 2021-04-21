@@ -1,0 +1,117 @@
+.introductions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  background: linear-gradient(180deg, #fe8b8d 0%, #e97397 100%);
+}
+
+.introductions .intro-left {
+  color: white;
+}
+
+.introductions .content-into {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: stretch;
+  width: 100%;
+}
+.introductions .content-into .intro-left {
+  position: absolute;
+  width: 60%;
+  left: 0;
+}
+.introductions .content-into .intro-left .first-product {
+  font-weight: bold;
+  color: white;
+  font-size: large;
+  margin: 1rem 0;
+}
+.introductions .content-into .intro-left .first-product a {
+  text-decoration: none;
+}
+.introductions .content-into .intro-left .slogan-intro {
+  font-weight: bold;
+  color: white;
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+.introductions .content-into .intro-left .description-intro {
+  margin: 1rem 0;
+}
+.introductions .content-into .intro-left .btn-download-paper {
+  margin: 1rem 0;
+  background-color: #753177;
+  color: white;
+  font-weight: bold;
+  border-radius: 0.55rem;
+  padding: 0.5rem 1.2rem;
+}
+
+.introductions .intro-right {
+  width: 55%;
+}
+.introductions .intro-right img {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .introductions .content-into {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .introductions .content-into {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .introductions .content-into {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .introductions .content-into {
+    max-width: 1140px;
+  }
+}
+
+@media (max-width: 992px) {
+  .introductions .content-into {
+    padding: 4rem 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+  }
+
+  .introductions .content-into .intro-left {
+    position: relative;
+    width: 80%;
+    text-align: start;
+  }
+
+  .introductions .content-into .intro-right {
+    margin-top: 3rem;
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .introductions .content-into .intro-left .slogan-intro {
+    font-size: 2.5rem;
+  }
+}

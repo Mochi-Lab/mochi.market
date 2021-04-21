@@ -1,0 +1,21 @@
+body {
+  background-color: #fafafa !important;
+}
+
+.content {
+  margin: 50px 0;
+  padding: 24px 24px !important;
+  border-radius: 20px;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-family: Sassoon Infant Pro;
+  color: #2b2d42;
+}
+
+strong,
+p,
+li {
+  font-family: DM Sans;
+}

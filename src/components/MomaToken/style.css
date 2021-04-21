@@ -1,0 +1,60 @@
+.moma-token {
+  padding: 5rem 0;
+  background: #17173a;
+  color: white;
+}
+
+.moma-token .title-section {
+  color: white;
+}
+.moma-token .title-section h1 b {
+  color: #fb3767;
+}
+
+.moma-token .conten-moma-token {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+}
+.moma-token .conten-moma-token .img-moma {
+  margin-right: 3rem;
+}
+.moma-token .conten-moma-token .desciption-moma {
+  width: 50%;
+}
+.moma-token .conten-moma-token .desciption-moma .title-description {
+  color: #fb3767;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+  .moma-token .conten-moma-token {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+  }
+
+  .moma-token .conten-moma-token .desciption-moma {
+    width: 100%;
+  }
+  .moma-token .conten-moma-token .desciption-moma .title-description {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .moma-token .conten-moma-token .img-moma {
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+
+  .moma-token .conten-moma-token .img-moma img {
+    width: 100%;
+  }
+}

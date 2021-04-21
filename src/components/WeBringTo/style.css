@@ -1,0 +1,22 @@
+.we-bring-to {
+  background-color: #17173a;
+  color: white;
+  padding: 5rem 0;
+}
+.we-bring-to .list-itm-bring .item-bring .description-bring-to {
+  margin: 1rem 0;
+  font-weight: bold;
+}
+.we-bring-to .list-itm-bring .item-bring .text-bring-to li {
+  margin: 1rem 0;
+  color: #e97397;
+}
+.we-bring-to .list-itm-bring .item-bring {
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .we-bring-to .list-itm-bring .item-bring {
+    margin: 1rem 0;
+  }
+}

@@ -1,0 +1,38 @@
+.the-problems {
+  padding: 5rem 0;
+}
+
+.the-problems .title-problems .big-text h1 {
+  font-weight: bold;
+  color: rgba(117, 49, 119, 1);
+}
+.the-problems .title-problems .small-text {
+  margin: 1rem 0;
+  color: black;
+  font-weight: bold;
+}
+.the-problems .list-items-problems {
+  margin: 2rem 0;
+}
+
+.the-problems .list-items-problems .item-problem .title-item {
+  margin: 1.5rem 0;
+  color: rgba(117, 49, 119, 1);
+  font-weight: bold;
+}
+.the-problems .list-items-problems .item-problem {
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .the-problems .list-items-problems {
+    margin: 0;
+  }
+
+  .the-problems .list-items-problems .item-problem {
+    margin: 2rem 0;
+  }
+  .the-problems .list-items-problems .item-problem {
+    padding: 0;
+  }
+}

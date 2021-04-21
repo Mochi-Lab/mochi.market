@@ -25,6 +25,10 @@
   font-style: normal;
 }
 
+body {
+  font-family: 'Sassoon Infant Pro';
+}
+
 .container {
   margin: 0 auto;
 }
@@ -34,19 +38,19 @@
 }
 
 .background-pink {
-  background: linear-gradient(180deg, #FE8B8D 0%, #E97397 100%);
+  background: linear-gradient(180deg, #fe8b8d 0%, #e97397 100%);
 }
 
 .background-dark {
-  background: #17173A;
+  background: #17173a;
 }
 
 .background-light {
-  background: #E9FFF9;
+  background: #e9fff9;
 }
 
 .background-light-pink {
-  background: #FEEBED;
+  background: #feebed;
 }
 
 .big-title {
@@ -64,11 +68,11 @@
 }
 
 .lc-color {
-  color: #E9FFF9;
+  color: #e9fff9;
 }
 
 .dark-color {
-  color: #17173A;
+  color: #17173a;
 }
 
 .purple-color {
@@ -83,4 +87,11 @@
   display: flex;
   justify-content: center;
   align-self: center;
+}
+.title-section {
+  text-align: center;
+  margin: 0 0 3rem 0;
+}
+.title-section h1 {
+  font-weight: bold;
 }
