@@ -25,7 +25,7 @@ export default function Footer() {
                 <p className='fttn-ct mb-4'>Roadmap</p>
                 <p className='fttn-ct'>Team</p>
                 <Link to='/privacy-policy-and-terms-conditions'>
-                  <p className='fttn-ct'>Privacy Policy & Tern and Conditions</p>
+                  <p className='fttn-ct'>Privacy Policy & Terms and Conditions</p>
                 </Link>
               </div>
               <div className='col-12 col-lg-4 mb-5'>
