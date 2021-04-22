@@ -224,7 +224,7 @@ export default function FAQ() {
                   </p>
                   <img
                     width='25px'
-                    className={showAnswer8 ? 'up-icon-1' : 'up-icon rotate-icon'}
+                    className={showAnswer8 ? 'up-icon' : 'up-icon rotate-icon'}
                     src={upIcon}
                     alt='faq'
                   />
@@ -309,7 +309,7 @@ export default function FAQ() {
                   </p>
                   <img
                     width='25px'
-                    className={showAnswer11 ? 'up-icon-2' : 'up-icon rotate-icon'}
+                    className={showAnswer11 ? 'up-icon' : 'up-icon rotate-icon'}
                     src={upIcon}
                     alt='faq'
                   />
