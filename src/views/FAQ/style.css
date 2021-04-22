@@ -3,6 +3,7 @@
 }
 
 .questions {
+  max-width: 1000px !important;
   padding-bottom: 50px;
 }
 
@@ -19,6 +20,8 @@
 }
 
 .item {
+  width: 100% !important;
+  max-width: 100% !important;
   margin: 0 auto;
 }
 

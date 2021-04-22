@@ -70,7 +70,7 @@ export default function FAQ() {
         <div className='row justify-content-center'>
           <p className='title-faq col-12'>faq</p>
           <div className='questions col-12 col-md-10'>
-            <div className='item col-12 col-md-8'>
+            <div className='item col-12 col-md-10'>
               <div className='question'>
                 <div className='question__content' onClick={() => visibleAnswer1()}>
                   <p className='title-question'>What is MochiLab and Mochi Market?</p>
@@ -95,7 +95,7 @@ export default function FAQ() {
               </div>
             </div>
 
-            <div className='item col-12 col-md-8'>
+            <div className='item col-12 col-md-10'>
               <div className='question'>
                 <div className='question__content' onClick={() => visibleAnswer2()}>
                   <p className='title-question'>What is the aim of Mochi Market?</p>
@@ -124,7 +124,7 @@ export default function FAQ() {
               </div>
             </div>
 
-            <div className='item col-12 col-md-8'>
+            <div className='item col-12 col-md-10'>
               <div className='question'>
                 <div className='question__content' onClick={() => visibleAnswer3()}>
                   <p className='title-question'>
@@ -145,7 +145,7 @@ export default function FAQ() {
               </div>
             </div>
 
-            <div className='item col-12 col-md-8'>
+            <div className='item col-12 col-md-10'>
               <div className='question'>
                 <div className='question__content' onClick={() => visibleAnswer4()}>
                   <p className='title-question'>What is the total supply of $MOMA tokens?</p>
@@ -162,7 +162,7 @@ export default function FAQ() {
               </div>
             </div>
 
-            <div className='item col-12 col-md-8'>
+            <div className='item col-12 col-md-10'>
               <div className='question'>
                 <div className='question__content' onClick={() => visibleAnswer5()}>
                   <p className='title-question'>
@@ -181,7 +181,7 @@ export default function FAQ() {
               </div>
             </div>
 
-            <div className='item col-12 col-md-8'>
+            <div className='item col-12 col-md-10'>
               <div className='question'>
                 <div className='question__content' onClick={() => visibleAnswer6()}>
                   <p className='title-question'>What is the price of $MOMA tokens?</p>
@@ -199,7 +199,7 @@ export default function FAQ() {
               </div>
             </div>
 
-            <div className='item col-12 col-md-8'>
+            <div className='item col-12 col-md-10'>
               <div className='question'>
                 <div className='question__content' onClick={() => visibleAnswer7()}>
                   <p className='title-question'>What is the initial market cap?</p>
@@ -216,7 +216,7 @@ export default function FAQ() {
               </div>
             </div>
 
-            <div className='item col-12 col-md-8'>
+            <div className='item col-12 col-md-10'>
               <div className='question'>
                 <div className='question__content' onClick={() => visibleAnswer8()}>
                   <p className='title-question'>
@@ -258,7 +258,7 @@ export default function FAQ() {
               </div>
             </div>
 
-            <div className='item col-12 col-md-8'>
+            <div className='item col-12 col-md-10'>
               <div className='question'>
                 <div className='question__content' onClick={() => visibleAnswer9()}>
                   <p className='title-question'>Which blockchains are currently supported?</p>
@@ -280,7 +280,7 @@ export default function FAQ() {
               </div>
             </div>
 
-            <div className='item col-12 col-md-8'>
+            <div className='item col-12 col-md-10'>
               <div className='question'>
                 <div className='question__content' onClick={() => visibleAnswer10()}>
                   <p className='title-question'>Where is Mochi based?</p>
@@ -300,7 +300,7 @@ export default function FAQ() {
               </div>
             </div>
 
-            <div className='item col-12 col-md-8'>
+            <div className='item col-12 col-md-10'>
               <div className='question'>
                 <div className='question__content' onClick={() => visibleAnswer11()}>
                   <p className='title-question'>
@@ -334,7 +334,7 @@ export default function FAQ() {
               </div>
             </div>
 
-            <div className='item col-12 col-md-8'>
+            <div className='item col-12 col-md-10'>
               <div className='question'>
                 <div className='question__content' onClick={() => visibleAnswer12()}>
                   <p className='title-question'>What is the Mochi.Market Airdrop Service?</p>
