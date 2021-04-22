@@ -6,12 +6,28 @@ import existential from 'assets/partners/existential.png';
 import magnus from 'assets/partners/magnus_capital.png';
 import raptor from 'assets/partners/raptor.png';
 import x21 from 'assets/partners/x21.svg';
-import seedify from 'assets/partners/seedify.png';
+import daomaker from 'assets/partners/daomaker.png';
 import blocksync from 'assets/partners/blocksync.png';
 import mercurius from 'assets/partners/mercurius.png';
 import moonWhale from 'assets/partners/moon-whale.png';
+import plasm from 'assets/partners/plasm.png';
+import blackmanba from 'assets/partners/blackmanba.png';
+import mintedlab from 'assets/partners/mintedlab.png';
+import manticorecapital from 'assets/partners/manticorecapital.png';
 
 const members = [
+  {
+    image: daomaker,
+    url: 'https://daomaker.com/',
+    name: 'Dao Maker',
+    className: 'daomaker',
+  },
+  {
+    image: plasm,
+    url: 'https://www.plasmnet.io/',
+    name: 'plasmnet',
+    className: 'plasm',
+  },
   {
     image: magnus,
     url: 'https://magnusdigitalassets.com/',
@@ -49,12 +65,6 @@ const members = [
     className: 'cinchBlock',
   },
   {
-    image: seedify,
-    url: 'https://seedify.fund/',
-    name: 'seedify fund',
-    className: 'seedify',
-  },
-  {
     image: existential,
     url: 'https://exst.vc/',
     name: 'existential capital',
@@ -77,6 +87,24 @@ const members = [
     url: '',
     name: 'mercurius',
     className: 'mercurius',
+  },
+  {
+    image: blackmanba,
+    url: 'https://blackmamba.ventures/',
+    name: 'Black Manba',
+    className: 'blackmanba',
+  },
+  {
+    image: mintedlab,
+    url: 'https://mintedlabs.com/',
+    name: 'Minted Lab',
+    className: 'mintedlab',
+  },
+  {
+    image: manticorecapital,
+    url: 'https://manticore.vc/',
+    name: 'Manticore Capital',
+    className: 'manticorecapital',
   },
 ];
 
@@ -101,7 +129,7 @@ export default function Partners() {
         <div>
           <div className='image-area row'>
             {members.map((partner, index) => (
-              <div className='col-4 col-md-4 col-lg-3 center' key={index}>
+              <div className='col-4 col-lg-3 center' key={index}>
                 <Partner data={partner} />
               </div>
             ))}

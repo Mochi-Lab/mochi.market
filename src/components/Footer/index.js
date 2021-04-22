@@ -20,20 +20,60 @@ export default function Footer() {
             <div className='row fttn'>
               <div className='col-12 col-lg-4 mb-5'>
                 <p className='fttn-hd mb-4'>Navigation</p>
-                <p className='fttn-ct mb-4'>Product</p>
-                <p className='fttn-ct mb-4'>Tokenomics</p>
-                <p className='fttn-ct mb-4'>Roadmap</p>
-                <p className='fttn-ct'>Team</p>
+                <p className='fttn-ct mb-4'>
+                  <Link to='/#Product'>Product</Link>
+                </p>
+                <p className='fttn-ct mb-4'>
+                  <Link to='/#Tokenomics'>Tokenomics</Link>
+                </p>
+                <p className='fttn-ct mb-4'>
+                  <Link to='/#Roadmap'>Roadmap</Link>
+                </p>
+                <p className='fttn-ct'>
+                  <Link to='/#Team'>Team</Link>
+                </p>
                 <Link to='/privacy-policy-and-terms-conditions'>
                   <p className='fttn-ct'>Privacy Policy & Terms and Conditions</p>
                 </Link>
               </div>
               <div className='col-12 col-lg-4 mb-5'>
                 <p className='fttn-hd mb-4'>Documents</p>
-                <p className='fttn-ct mb-4'>One Page</p>
-                <p className='fttn-ct mb-4'>Pitch Deck</p>
-                <p className='fttn-ct mb-4'>White Paper</p>
-                <p className='fttn-ct'>Light Paper</p>
+                <p className='fttn-ct mb-4'>
+                  <a
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href={`${process.env.PUBLIC_URL}/OnePage.pdf`}
+                  >
+                    One Page
+                  </a>
+                </p>
+                <p className='fttn-ct mb-4'>
+                  <a
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href={`${process.env.PUBLIC_URL}/PitchDeck.pdf`}
+                  >
+                    Pitch Deck
+                  </a>
+                </p>
+                <p className='fttn-ct mb-4'>
+                  <a
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href={`${process.env.PUBLIC_URL}/LightPaper.pdf`}
+                  >
+                    White Paper
+                  </a>
+                </p>
+                <p className='fttn-ct'>
+                  <a
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href={`${process.env.PUBLIC_URL}/WhitePaper.pdf`}
+                  >
+                    Light Paper
+                  </a>
+                </p>
               </div>
               <div className='col-12 col-lg-4 mb-5'>
                 <p className='fttn-hd mb-4'>Community</p>
@@ -46,7 +86,7 @@ export default function Footer() {
                 <a href='https://mochi-market.medium.com/' target='_blank' rel='noreferrer'>
                   <p className='fttn-ct mb-4'>Medium</p>
                 </a>
-                <a href='https://discord.gg/ZHq7arVS' target='_blank' rel='noreferrer'>
+                <a href='https://discord.gg/TarCMncJNm' target='_blank' rel='noreferrer'>
                   <p className='fttn-ct'>Discord</p>
                 </a>
               </div>

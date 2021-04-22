@@ -3,6 +3,21 @@
   background-color: #753177;
 }
 
+.footer a:hover {
+  text-decoration: none;
+}
+
+.footer a {
+  color: #ffffff;
+}
+.footer a:hover {
+  color: #ffffff;
+}
+
+.footer a:hover p {
+  color: #ffffff;
+}
+
 .footer-logo {
   height: 53px;
   width: 166px;
