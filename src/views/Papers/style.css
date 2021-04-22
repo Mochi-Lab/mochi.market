@@ -3,7 +3,6 @@
 }
 .papers .title-paper h1 {
   text-align: center;
-  color: #753177;
   font-weight: bold;
   margin: 3rem 0 4rem 0;
 }
@@ -39,7 +38,7 @@
   justify-content: flex-end;
   align-items: center;
   align-content: stretch;
-  background-color: #753177;
+  background-color: #FFFFFF;;
   height: 275px;
 }
 
@@ -49,7 +48,9 @@
   text-align: center;
 }
 .papers .list-item-papers .item-paper .content-item-paper .name-paper {
-  color: white;
+  color: #753177;
+  font-family: "Sassoon Infant Pro";
+  font-size: 24px;
   font-weight: bold;
 }
 

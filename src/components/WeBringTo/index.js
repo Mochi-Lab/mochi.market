@@ -9,7 +9,7 @@ export default function WeBringTo() {
     <div className='we-bring-to'>
       <div className='container'>
         <div className='title-section'>
-          <h1>What we bring to the table</h1>
+          <h1 className='big-title'>What we bring to the table</h1>
         </div>
         <div className='list-itm-bring'>
           <div className='row'>
@@ -34,8 +34,8 @@ export default function WeBringTo() {
                   incentives
                 </div>
                 <ul className='text-bring-to'>
-                  <li>Fractionalization</li>
                   <li>Staking</li>
+                  <li>Lending</li>
                 </ul>
               </div>
             </div>

@@ -8,10 +8,13 @@ import './style.css';
 
 export default function MainMeal() {
   return (
-    <div className='main-meal'>
+    <div className='main-meal background-pink'>
+      <div className='circle'>
+        <div />
+      </div>
       <div className='container'>
         <div className='title-section'>
-          <h1>The main meal</h1>
+          <h1 className='big-title'>The main meal</h1>
         </div>
         <div className='list-main-meal'>
           <div className='row justify-content-center'>

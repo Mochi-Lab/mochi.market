@@ -11,10 +11,10 @@ export default function Papers() {
   return (
     <>
       <Navbar />
-      <div className='papers'>
+      <div className='papers background-pink'>
         <div className='container'>
           <div className='title-paper'>
-            <h1>Papers</h1>
+            <h1 className='big-title light-pink'>Papers</h1>
           </div>
           <div className='list-item-papers'>
             <div className='row justify-content-center'>

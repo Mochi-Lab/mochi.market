@@ -38,7 +38,7 @@ body {
 }
 
 .background-pink {
-  background: linear-gradient(180deg, #fe8b8d 0%, #e97397 100%);
+  background: linear-gradient(99.5deg, #FC5981 0.48%, #A2269B 100%);
 }
 
 .background-dark {
@@ -64,11 +64,15 @@ body {
 }
 
 .sans-font {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'DM Sans';
 }
 
 .lc-color {
   color: #e9fff9;
+}
+
+.light-pink {
+  color: #FEEBED;
 }
 
 .dark-color {

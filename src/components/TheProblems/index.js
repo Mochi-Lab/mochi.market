@@ -11,9 +11,9 @@ export default function TheProblems() {
       <div className='container'>
         <div className='title-problems'>
           <div className='big-text'>
-            <h1>The Problems</h1>
+            <h1 className='big-title'>The Problems</h1>
           </div>
-          <div className='small-text'>What the early NFT adopters are saying:</div>
+          <div className='small-text col'>What the early NFT adopters are saying:</div>
         </div>
         <div className='list-items-problems'>
           <div className='row'>
