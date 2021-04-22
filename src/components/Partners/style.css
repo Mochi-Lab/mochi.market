@@ -61,11 +61,6 @@
   width: 182px;
 }
 
-.seedify {
-  height: 35px;
-  width: 220px;
-}
-
 .existential {
   height: 46px;
   width: 203px;
@@ -86,9 +81,73 @@
   width: 215px;
 }
 
+.daomaker {
+  height: 75px;
+  width: 155px;
+}
+.plasm {
+  height: 75px;
+  width: 80px;
+}
+.blackmanba {
+  height: 35px;
+  width: 200px;
+}
+.mintedlab {
+  height: 65px;
+  width: 140px;
+}
+.manticorecapital {
+  height: 70px;
+  width: 170px;
+}
+
+@media (max-width: 1200px) {
+  .partner-card {
+    padding: 0;
+    width: 215px;
+    height: 128px;
+  }
+
+  .btxCapital {
+    height: 20px;
+    width: 170px;
+  }
+
+  .existential {
+    height: 40px;
+    width: 175px;
+  }
+
+  .blocksync {
+    height: 45px;
+    width: 170px;
+  }
+
+  .mercurius {
+    height: 50px;
+    width: 175px;
+  }
+  .blackmanba {
+    height: 30px;
+    width: 170px;
+  }
+
+  .mintedlab {
+    height: 60px;
+    width: 130px;
+  }
+
+  .manticorecapital {
+    height: 65px;
+    width: 150px;
+  }
+}
 @media (max-width: 992px) {
   .partner-card {
     padding: 0;
+    width: 215px;
+    height: 128px;
   }
 }
 
@@ -128,11 +187,6 @@
     width: 69.2px;
   }
 
-  .seedify {
-    height: 14.4px;
-    width: 79.1px;
-  }
-
   .existential {
     height: 17.1px;
     width: 78.62px;
@@ -151,5 +205,26 @@
   .mercurius {
     height: 22.25px;
     width: 81.58px;
+  }
+
+  .daomaker {
+    height: 28.8px;
+    width: 61.6px;
+  }
+  .plasm {
+    height: 28.8px;
+    width: 31.6px;
+  }
+  .blackmanba {
+    height: 15.8px;
+    width: 85.6px;
+  }
+  .mintedlab {
+    height: 25.8px;
+    width: 55.6px;
+  }
+  .manticorecapital {
+    height: 30.8px;
+    width: 70.6px;
   }
 }

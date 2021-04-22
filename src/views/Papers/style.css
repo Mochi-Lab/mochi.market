@@ -54,6 +54,11 @@
   font-weight: bold;
 }
 
+.papers a {
+  color: #ffffff;
+  text-decoration: none !important;
+}
+
 @media (max-width: 768px) {
   .papers .list-item-papers .item-paper {
     text-align: center;

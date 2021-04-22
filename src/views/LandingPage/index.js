@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
-
+import { useHistory } from 'react-router-dom';
 import Navbar from 'components/Navbar';
 import Introductions from 'components/Introductions';
 import Community from 'components/Community';
@@ -19,6 +19,7 @@ import { VerticalAlignTopOutlined } from '@ant-design/icons';
 import './style.css';
 
 export default function LandingPage() {
+  let history = useHistory();
   const sections = useRef([]);
   const [showScrollTop, setShowScrollTop] = useState(false);
   const toggleVisibility = () => {
@@ -33,8 +34,14 @@ export default function LandingPage() {
     window.addEventListener('scroll', toggleVisibility);
   }, []);
 
+  useEffect(() => {
+    if (!!history.location.hash) {
+      executeScroll(history.location.hash.slice(1));
+    }
+  });
+
   const executeScroll = (strSection) => {
-    if (!strSection) return;
+    if (!strSection || !sections.current[strSection]) return;
     sections.current[strSection].scrollIntoView({ behavior: 'smooth' });
   };
 
@@ -43,15 +50,23 @@ export default function LandingPage() {
       <div ref={(el) => (sections.current['Top'] = el)}>
         <Navbar executeScroll={executeScroll} sections={sections} />
       </div>
-      <Introductions />
+      <div ref={(el) => (sections.current['Product'] = el)}>
+        <Introductions />
+      </div>
       <TheProblems />
       <WeBringTo />
       <MainMeal />
-      <MomaToken />
+      <div ref={(el) => (sections.current['Tokenomics'] = el)}>
+        <MomaToken />
+      </div>
       <UtilityFeatures />
       <Community />
-      <Roadmap />
-      <MochiTeam />
+      <div ref={(el) => (sections.current['Roadmap'] = el)}>
+        <Roadmap />
+      </div>
+      <div ref={(el) => (sections.current['Team'] = el)}>
+        <MochiTeam />
+      </div>
       <Advisors />
       <Partners />
       <Footer />
