@@ -8,8 +8,13 @@ export default function Introductions() {
         <div className='intro-left'>
           <div className='first-product sans-font'>
             First product of{' '}
-            <a className='purple-color' href='mochilab.org' target='_blank'>
-              Mochilab.org
+            <a
+              className='purple-color'
+              href='https://mochilab.org'
+              target='_blank'
+              rel='noreferrer'
+            >
+              MochiLab.org
             </a>
           </div>
           <div className='slogan-intro'>
