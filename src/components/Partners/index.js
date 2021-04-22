@@ -14,6 +14,7 @@ import plasm from 'assets/partners/plasm.png';
 import blackmanba from 'assets/partners/blackmanba.png';
 import mintedlab from 'assets/partners/mintedlab.png';
 import manticorecapital from 'assets/partners/manticorecapital.png';
+import halborn from 'assets/partners/halborn-black.svg';
 
 const members = [
   {
@@ -96,7 +97,7 @@ const members = [
   },
   {
     image: mintedlab,
-    url: 'https://mintedlabs.com/',
+    url: '',
     name: 'Minted Lab',
     className: 'mintedlab',
   },
@@ -105,6 +106,12 @@ const members = [
     url: 'https://manticore.vc/',
     name: 'Manticore Capital',
     className: 'manticorecapital',
+  },
+  {
+    image: halborn,
+    url: 'https://halborn.com/',
+    name: 'Halborn',
+    className: 'halborn',
   },
 ];
 

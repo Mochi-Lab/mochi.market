@@ -44,7 +44,7 @@ export default function WeBringTo() {
                 <img src={bring3} alt='bring to 1' />
                 <div className='description-bring-to'>
                   An economy where NFT and Fungible tokens (“FT”) are seamlessly intersecting across
-                  multiple blockchains - Interoperability
+                  multiple blockchains
                 </div>
                 <ul className='text-bring-to'>
                   <li>Interoperability</li>

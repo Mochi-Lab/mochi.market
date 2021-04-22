@@ -61,9 +61,8 @@ export default function MainMeal() {
                   <img src={bring4} alt='img-main-meal' />
                   <div className='title-item-main-meal'>Mochi Earn</div>
                   <div className='descripton-item-main-meal'>
-                    Providing Staking, Yield Farming programs so that users can earn passive profits
-                    by providing NFT and FT liquidity for the services of the Mochi Market
-                    ecosystem.
+                    Staking and yield farming programs, giving opportunity for users to earn passive
+                    income by providing NFT and FT liquidity.
                   </div>
                 </div>
               </div>

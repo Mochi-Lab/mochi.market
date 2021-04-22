@@ -73,7 +73,7 @@ export default function FAQ() {
             <div className='item col-12 col-md-10'>
               <div className='question'>
                 <div className='question__content' onClick={() => visibleAnswer1()}>
-                  <p className='title-question'>What is MochiLab and Mochi Market?</p>
+                  <p className='title-question'>What is MochiLab and Mochi.Market?</p>
                   <img
                     width='25px'
                     className={showAnswer1 ? 'up-icon' : 'up-icon rotate-icon'}
@@ -98,7 +98,7 @@ export default function FAQ() {
             <div className='item col-12 col-md-10'>
               <div className='question'>
                 <div className='question__content' onClick={() => visibleAnswer2()}>
-                  <p className='title-question'>What is the aim of Mochi Market?</p>
+                  <p className='title-question'>What is the aim of Mochi.Market?</p>
                   <img
                     width='25px'
                     className={showAnswer2 ? 'up-icon' : 'up-icon rotate-icon'}
@@ -127,9 +127,7 @@ export default function FAQ() {
             <div className='item col-12 col-md-10'>
               <div className='question'>
                 <div className='question__content' onClick={() => visibleAnswer3()}>
-                  <p className='title-question'>
-                    Does Mochi have its own token? /What is the name of the Mochi token?
-                  </p>
+                  <p className='title-question'>Does Mochi have its own token?</p>
                   <img
                     width='25px'
                     className={showAnswer3 ? 'up-icon' : 'up-icon rotate-icon'}
@@ -138,7 +136,8 @@ export default function FAQ() {
                   />
                   <Collapse isOpen={showAnswer3}>
                     <p className='answer'>
-                      <strong>$MOMA</strong>, an ERC20 and BEP20 token
+                      <strong>$MOMA</strong>, initially an ERC20 token and will be bridged over to
+                      other chains
                     </p>
                   </Collapse>
                 </div>
@@ -236,18 +235,18 @@ export default function FAQ() {
                       exchange.
                       <br />
                       <br />
-                      Mochi DEX - Whereusers can use automated market making (“AMM”) mechanisms to
+                      Mochi DEX - Where users can use automated market making (“AMM”) mechanisms to
                       exchange between FTs and NFTs on the same or cross-chains.
                       <br />
                       <br />
-                      Mochi Rewards System - To increase user interaction in the Mochi Market
+                      Mochi Rewards System - To increase user interaction in the Mochi.Market
                       ecosystem, there will be a lot of reward systems for users such as trading
                       reward, referral, airdrop, lottery, and NFT launchpad.
                       <br />
                       <br />
                       Mochi Earn - Providing Staking, Yield Farming programs so that users can earn
                       passive profits by providing NFT and FT liquidity for the services of the
-                      Mochi Market ecosystem.
+                      Mochi.Market ecosystem.
                       <br />
                       <br />
                       Mochi Integration - Provides a way to directly integrate with popular NFT
