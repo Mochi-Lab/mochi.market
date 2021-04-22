@@ -9,13 +9,18 @@
 
 .footer a {
   color: #ffffff;
+  font-weight: normal;
+}
+.footer a p {
+  color: #ffffff;
+  font-weight: normal;
 }
 .footer a:hover {
-  color: #ffffff;
+  color: deeppink;
 }
 
 .footer a:hover p {
-  color: #ffffff;
+  color: deeppink;
 }
 
 .footer-logo {

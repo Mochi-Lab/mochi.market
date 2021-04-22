@@ -29,9 +29,9 @@ export default function TheProblems() {
             <div className='col-6 col-md-3'>
               <div className='item-problem'>
                 <img src={noProfitable} alt='item-problems' />
-                <div className='title-item'>Not Profitable</div>
+                <div className='title-item'>Lack of monetization strategy</div>
                 <div className='description-item'>
-                  Holding NFT is not profitable (not a yielding asset, no utility for NFTs)
+                  Holding NFT very rarely does provide yield and utility
                 </div>
               </div>
             </div>

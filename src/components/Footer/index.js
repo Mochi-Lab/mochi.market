@@ -60,7 +60,7 @@ export default function Footer() {
                   <a
                     target='_blank'
                     rel='noopener noreferrer'
-                    href={`${process.env.PUBLIC_URL}/LightPaper.pdf`}
+                    href={`${process.env.PUBLIC_URL}/WhitePaper.pdf`}
                   >
                     White Paper
                   </a>
@@ -69,7 +69,7 @@ export default function Footer() {
                   <a
                     target='_blank'
                     rel='noopener noreferrer'
-                    href={`${process.env.PUBLIC_URL}/WhitePaper.pdf`}
+                    href={`${process.env.PUBLIC_URL}/LightPaper.pdf`}
                   >
                     Light Paper
                   </a>

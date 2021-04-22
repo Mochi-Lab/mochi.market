@@ -15,7 +15,7 @@ const advisors = [
     name: 'Matthijs van Driel',
     role: 'ADVISOR',
     linkedin: 'https://vn.linkedin.com/',
-    twitter: 'https://vn.linkedin.com/',
+    twitter: 'https://twitter.com/',
   },
   {
     image: oliver,

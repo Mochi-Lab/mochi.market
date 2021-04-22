@@ -102,6 +102,11 @@
   width: 170px;
 }
 
+.halborn {
+  height: 65px;
+  width: 150px;
+}
+
 @media (max-width: 1200px) {
   .partner-card {
     padding: 0;
@@ -139,6 +144,11 @@
   }
 
   .manticorecapital {
+    height: 65px;
+    width: 150px;
+  }
+
+  .halborn {
     height: 65px;
     width: 150px;
   }
@@ -224,6 +234,10 @@
     width: 55.6px;
   }
   .manticorecapital {
+    height: 30.8px;
+    width: 70.6px;
+  }
+  .halborn {
     height: 30.8px;
     width: 70.6px;
   }
