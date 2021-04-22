@@ -64,17 +64,19 @@ export default function Roadmap() {
     return (
       <div style={{ position: 'relative', marginTop: '20px' }} className='col-12'>
         <div className='line row'>
-          {timelines.slice(from, to).map((timeline, index) => (
-            <div key={index} className='col-4 col-lg-2 center'>
-              <div className='dot '>
-                <div className={`${timeline.stage === 'Q2, 2021' ? '' : 'inactive'}`} />
+          <div className='line-dot'>
+            {timelines.slice(from, to).map((timeline, index) => (
+              <div key={index} className='center'>
+                <div className='dot '>
+                  <div className={`${timeline.stage === 'Q2, 2021' ? '' : 'inactive'}`} />
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
         <div className='row underline'>
           {timelines.slice(from, to).map((timeline, index) => (
-            <div key={index} className='timeline-box col-4 col-lg-2'>
+            <div key={index} className='timeline-box'>
               <p className='purple-color time-stage '>{timeline.stage}</p>
               <p className='dark-color time-content'>{timeline.content}</p>
             </div>
