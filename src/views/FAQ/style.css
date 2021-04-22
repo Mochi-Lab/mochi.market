@@ -60,7 +60,8 @@
   display: inline-block;
   z-index: 2;
   right: 16px;
-  top: calc((100% - 65px) / 2);
+  vertical-align: top;
+  top: 25px;
 }
 
 .up-icon:hover {
@@ -70,22 +71,6 @@
 .rotate-icon {
   top: calc((100% - 17px) / 2);
   transform: rotate(-180deg);
-}
-
-.up-icon-1 {
-  position: absolute;
-  display: inline-block;
-  z-index: 2;
-  right: 16px;
-  top: 10%;
-}
-
-.up-icon-2 {
-  position: absolute;
-  display: inline-block;
-  z-index: 2;
-  right: 16px;
-  top: 12%;
 }
 
 .title-question {
