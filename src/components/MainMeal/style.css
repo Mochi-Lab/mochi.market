@@ -1,16 +1,32 @@
 .main-meal {
   padding: 5rem 0;
-  background-image: url('assets/img/bg-main-meal.png');
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.circle > div {
+  background-image: url('assets/img/bg-circle.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin: auto;
+  width: 80%;
+  height: 100%;
 }
+
 .main-meal .title-section h1 {
   color: white;
   font-weight: bold;
 }
 
-.main-meal .list-main-meal .item-main-meal .item-main-meal__content {
+.list-main-meal .item-main-meal .item-main-meal__content {
   position: relative;
   border: 1px solid #753177;
   box-sizing: border-box;
@@ -22,7 +38,7 @@
   height: 300px;
 }
 
-.main-meal .list-main-meal .item-main-meal:before {
+.list-main-meal .item-main-meal:before {
   position: absolute;
   content: '';
   background: linear-gradient(89.9deg, #fb3767 0.42%, #753177 100.25%);
@@ -41,6 +57,23 @@
   margin: 1rem 0 1.5rem 0;
   color: #753177;
   font-weight: bold;
+}
+
+.title-item-main-meal {
+  font-family: "Sassoon Infant Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #753177;
+}
+
+.descripton-item-main-meal {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120.7%;
+  color: #17173A;
 }
 
 @media (max-width: 1024px) {

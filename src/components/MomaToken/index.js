@@ -6,7 +6,7 @@ export default function MomaToken() {
     <div className='moma-token'>
       <div className='container'>
         <div className='title-section'>
-          <h1>
+          <h1 className='big-title'>
             The <b>$MOMA</b> Token
           </h1>
         </div>

@@ -6,22 +6,46 @@
   font-weight: bold;
   color: rgba(117, 49, 119, 1);
 }
+
 .the-problems .title-problems .small-text {
   margin: 1rem 0;
-  color: black;
   font-weight: bold;
 }
+
+.small-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 24px;
+  line-height: 120.7%;
+  color: #17173A;
+}
+
 .the-problems .list-items-problems {
   margin: 2rem 0;
 }
 
 .the-problems .list-items-problems .item-problem .title-item {
   margin: 1.5rem 0;
-  color: rgba(117, 49, 119, 1);
+  color: #753177;
   font-weight: bold;
+  font-family: "Sassoon Infant Pro";
+  font-style: normal;
+  font-size: 24px;
+  line-height: 120.7%;
 }
+
+.description-item {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #17173A;
+}
+
 .the-problems .list-items-problems .item-problem {
-  padding: 1rem;
+  padding: 1rem 0rem; 
 }
 
 @media (max-width: 768px) {

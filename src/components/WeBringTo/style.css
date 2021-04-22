@@ -3,14 +3,33 @@
   color: white;
   padding: 5rem 0;
 }
-.we-bring-to .list-itm-bring .item-bring .description-bring-to {
-  margin: 1rem 0;
+
+.text-bring-to {
+  padding-inline-start: 20px !important;
+  font-family: "DM Sans";
+  font-style: normal;
   font-weight: bold;
+  font-size: 16px;
 }
+
+.we-bring-to .list-itm-bring .item-bring .description-bring-to {
+  margin: 1rem 0rem;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
 .we-bring-to .list-itm-bring .item-bring .text-bring-to li {
   margin: 1rem 0;
-  color: #e97397;
+  color: #FB3767;
 }
+
 .we-bring-to .list-itm-bring .item-bring {
   padding: 1rem;
 }

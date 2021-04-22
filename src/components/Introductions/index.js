@@ -3,12 +3,12 @@ import './style.css';
 
 export default function Introductions() {
   return (
-    <div className='introductions'>
+    <div className='introductions background-pink'>
       <div className='content-into'>
         <div className='intro-left'>
-          <div className='first-product'>
+          <div className='first-product sans-font'>
             First product of{' '}
-            <a href='mochilab.org' target='_blank'>
+            <a className='purple-color' href='mochilab.org' target='_blank'>
               Mochilab.org
             </a>
           </div>
