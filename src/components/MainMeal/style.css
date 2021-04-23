@@ -1,6 +1,7 @@
 .main-meal {
   padding: 5rem 0;
   position: relative;
+  background: linear-gradient(99.5deg, #fc5981 0.48%, #a2269b 100%);
 }
 
 .circle {
@@ -60,7 +61,7 @@
 }
 
 .title-item-main-meal {
-  font-family: "Sassoon Infant Pro";
+  font-family: 'Sassoon Infant Pro';
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -68,12 +69,12 @@
 }
 
 .descripton-item-main-meal {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 120.7%;
-  color: #17173A;
+  color: #17173a;
 }
 
 @media (max-width: 1024px) {

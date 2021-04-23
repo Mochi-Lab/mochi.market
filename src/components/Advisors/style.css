@@ -2,6 +2,11 @@
   flex-direction: column;
   padding: 3rem 0 8rem 0;
 }
+.advisors .member-image > img {
+  border: 1px solid #000000;
+  width: 161px;
+  height: 161px;
+}
 
 .footer-card > div > img {
   width: 16px;
@@ -35,7 +40,7 @@
   top: 0px;
   left: 0px;
   object-fit: cover;
-  border: 1px solid #17173a;
+  border: 1px solid #753177;
   box-sizing: border-box;
   border-radius: 5px;
 }
@@ -59,6 +64,7 @@
   line-height: 120.7%;
   text-align: center;
   white-space: nowrap;
+  color: rgba(233, 255, 249, 1);
 }
 
 .role {
@@ -69,6 +75,7 @@
   line-height: 120.7%;
   text-align: center;
   white-space: nowrap;
+  color: rgba(255, 255, 255, 1);
 }
 
 @media (max-width: 767px) {

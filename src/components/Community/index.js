@@ -6,7 +6,7 @@ import discord from 'assets/icons/discord.svg';
 
 export default function Community() {
   return (
-    <div className='footer background-pink community'>
+    <div className='footer community'>
       <div className='container'>
         <p className='be-a-part'>Want to be a part of Mochi.Market?</p>
         <p className='join-discussion'>Join the discussion!</p>
