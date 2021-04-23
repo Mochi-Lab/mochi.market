@@ -1,6 +1,6 @@
 import './style.css';
 import utilfeat from 'assets/img/UtilityFeatures.png';
-import smUtilFeat from 'assets/img/sm-circle.png';
+import smUtilFeat from 'assets/img/smUtilityFeatures.png';
 import diamon from 'assets/img/diamon.png';
 import liquidity from 'assets/img/liquidity.png';
 import sales from 'assets/img/sales.png';
@@ -11,7 +11,7 @@ export default function UtilityFeatures() {
     <div className='background-light-pink'>
       <div className='utility-features container'>
         <div className='col-12'>
-          <p className='big-title purple-color utility-title'>Utility features</p>
+          <p className='big-title utility-title'>Utility features</p>
           <p className='utility-content'>
             The $MOMA tokens give access to a number of special services on the platform, such as:
           </p>

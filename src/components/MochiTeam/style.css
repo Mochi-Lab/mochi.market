@@ -3,8 +3,8 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  background: linear-gradient(89.9deg, #FB3767 0.42%, #753177 100.25%);
-  border: 1px solid #17173A;
+  background: linear-gradient(99.5deg, #fc5981 0.48%, #a2269b 100%);
+  border: 1px solid #753177;
   box-sizing: border-box;
   border-radius: 5px;
   z-index: 0;
@@ -13,6 +13,7 @@
 .mochiteam {
   flex-direction: column;
   padding: 3rem 0 8rem 0;
+  background: rgba(117, 49, 119, 1);
 }
 
 .memimg {

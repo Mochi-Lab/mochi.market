@@ -1,6 +1,6 @@
 .moma-token {
   padding: 5rem 0;
-  background: #17173a;
+  background: rgba(117, 49, 119, 1);
   color: white;
 }
 
@@ -9,7 +9,7 @@
 }
 
 .moma-token .title-section h1 b {
-  color: #fb3767;
+  color: #ffffff;
 }
 
 .moma-token .conten-moma-token {
@@ -22,12 +22,12 @@
 }
 
 .text-description {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 143.7%;
-  color: #E9FFF9;
+  color: #e9fff9;
 }
 
 .moma-token .conten-moma-token .img-moma {
@@ -39,8 +39,8 @@
 }
 
 .moma-token .conten-moma-token .desciption-moma .title-description {
-  font-family: "DM Sans";
-  color: #fb3767;
+  font-family: 'DM Sans';
+  color: #e9fff9;
   font-size: 24px;
   line-height: 120.7%;
   font-weight: bold;
@@ -54,12 +54,12 @@
   }
 
   .text-description {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-weight: 500;
     font-size: 12px;
     line-height: 148.7%;
   }
-  
+
   .moma-token .conten-moma-token {
     display: flex;
     flex-direction: column-reverse;

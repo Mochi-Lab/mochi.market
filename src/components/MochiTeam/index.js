@@ -84,8 +84,8 @@ function Member({ data }) {
         </div>
       </div>
 
-      <p className='name dark-color'>{name}</p>
-      <p className='role purple-color'>{role}</p>
+      <p className='name'>{name}</p>
+      <p className='role'>{role}</p>
       <div className='footer-card row center'>
         <div className='background-dark' style={{ marginRight: '20px' }}>
           <img src={iconLinkedin} alt='linkedin' onClick={() => window.open(linkedin)} />
@@ -100,10 +100,10 @@ function Member({ data }) {
 
 export default function MochiTeam() {
   return (
-    <div className='background-light'>
-      <div className='container mochiteam'>
+    <div className='mochiteam'>
+      <div className='container'>
         <div className='col-12'>
-          <p className='big-title dark-color'>Team</p>
+          <p className='big-title'>Team</p>
         </div>
         <div className='col-12'>
           <div className='image-area row justify-content-center'>

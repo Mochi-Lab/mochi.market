@@ -6,7 +6,7 @@
 
 .text-bring-to {
   padding-inline-start: 20px !important;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -14,12 +14,12 @@
 
 .we-bring-to .list-itm-bring .item-bring .description-bring-to {
   margin: 1rem 0rem;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 28px;
-  color: #FFFFFF;
+  color: #ffffff;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -27,7 +27,16 @@
 
 .we-bring-to .list-itm-bring .item-bring .text-bring-to li {
   margin: 1rem 0;
-  color: #FB3767;
+  background: linear-gradient(99.5deg, #fc5981 0.48%, #a2269b 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.we-bring-to .list-itm-bring .item-bring .text-bring-to li:hover {
+  cursor: pointer;
+  background: linear-gradient(99.5deg, #fd658b 0.48%, #ff4fa0 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .we-bring-to .list-itm-bring .item-bring {
