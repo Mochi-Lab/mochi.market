@@ -1,24 +1,29 @@
 .the-problems {
   padding: 5rem 0;
+  background: rgba(117, 49, 119, 1);
 }
 
 .the-problems .title-problems .big-text h1 {
   font-weight: bold;
-  color: rgba(117, 49, 119, 1);
+  color: rgb(255, 255, 255);
+  text-align: start;
+  margin-bottom: 0;
+  margin-top: 1.5rem;
 }
 
 .the-problems .title-problems .small-text {
   margin: 1rem 0;
   font-weight: bold;
+  color: rgb(255, 255, 255);
 }
 
 .small-text {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500 !important;
   font-size: 24px;
   line-height: 120.7%;
-  color: #17173A;
+  color: #17173a;
 }
 
 .the-problems .list-items-problems {
@@ -27,25 +32,25 @@
 
 .the-problems .list-items-problems .item-problem .title-item {
   margin: 1.5rem 0;
-  color: #753177;
+  color: #ffffff;
   font-weight: bold;
-  font-family: "Sassoon Infant Pro";
+  font-family: 'Sassoon Infant Pro';
   font-style: normal;
   font-size: 24px;
   line-height: 120.7%;
 }
 
 .description-item {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 26px;
-  color: #17173A;
+  color: #d8d8d8;
 }
 
 .the-problems .list-items-problems .item-problem {
-  padding: 1rem 0rem; 
+  padding: 1rem 0rem;
 }
 
 @media (max-width: 768px) {

@@ -6,6 +6,7 @@
 
 .roadmap {
   padding: 3rem 0 1rem 0;
+  background: rgba(117, 49, 119, 1);
 }
 
 .line {
@@ -13,8 +14,8 @@
   width: 100%;
   border-radius: 2px;
   height: 2px;
-  background-color: #753177;
-  border: 2px solid #753177;
+  background-color: #e9fff9;
+  border: 2px solid #e9fff9;
 }
 
 .dot {
@@ -41,11 +42,13 @@
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
+  color: #ffffff;
 }
 
 .time-content {
   font-family: 'DM Sans';
   font-size: 16px;
+  color: #dee2e6;
 }
 
 .underline {
@@ -79,6 +82,11 @@
   width: 100%;
 }
 
+@media (max-width: 992px) {
+  .timeline-box {
+    width: 120px;
+  }
+}
 @media (max-width: 767px) {
   .carousel {
     height: 170px;
@@ -90,5 +98,9 @@
 
   .time-content {
     font-size: 10px;
+  }
+
+  .timeline-box {
+    width: 100px;
   }
 }

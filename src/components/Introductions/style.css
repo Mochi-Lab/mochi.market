@@ -29,7 +29,9 @@
 }
 
 .first-product > a:hover {
-  color: #b230b6;
+  background: linear-gradient(99.5deg, #ff02f1 0.48%, #ff02f1 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .introductions .content-into .intro-left .first-product {
@@ -50,8 +52,8 @@
   margin: 1rem 0;
 }
 
-.slogan-intro{
-  font-family: "Sassoon Infant Pro";
+.slogan-intro {
+  font-family: 'Sassoon Infant Pro';
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
@@ -61,34 +63,38 @@
   margin: 1rem 0;
 }
 
-.description-intro{
+.description-intro {
   max-width: 520px;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 145.2%;
 }
 
-.dlwp{
+.dlwp {
   margin: 0;
   text-align: center;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .introductions .content-into .intro-left .btn-download-paper {
   margin: 1rem 0;
-  background-color: #753177;
+  background: linear-gradient(99.5deg, #fc5981 0.48%, #a2269b 100%);
   color: white;
   font-weight: bold;
   border-radius: 0.55rem;
   padding: 0.5rem 1.2rem;
+}
+.introductions .content-into .intro-left .btn-download-paper:hover {
+  transform: all 1s;
+  background: linear-gradient(99.5deg, #a2269b 0.48%, #fc5981 100%);
 }
 
 .introductions .intro-right {

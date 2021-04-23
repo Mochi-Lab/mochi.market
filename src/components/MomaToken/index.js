@@ -1,4 +1,4 @@
-import imgMoma from 'assets/img/img-moma.png';
+import imgMoma from 'assets/img/img-moma.svg';
 import './style.css';
 
 export default function MomaToken() {
