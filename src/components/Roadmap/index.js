@@ -77,8 +77,8 @@ export default function Roadmap() {
         <div className='row underline'>
           {timelines.slice(from, to).map((timeline, index) => (
             <div key={index} className='timeline-box'>
-              <p className='purple-color time-stage '>{timeline.stage}</p>
-              <p className='dark-color time-content'>{timeline.content}</p>
+              <p className='lc-color time-stage '>{timeline.stage}</p>
+              <p className='lc-color time-content'>{timeline.content}</p>
             </div>
           ))}
         </div>
@@ -99,10 +99,10 @@ export default function Roadmap() {
   });
 
   return (
-    <div className='background-light'>
+    <div className='background-purple'>
       <div className='container roadmap'>
         <div className='col-12'>
-          <p className='big-title dark-color'>The Roadmap</p>
+          <p className='big-title white-color'>The Roadmap</p>
         </div>
         {window.innerWidth < 1196 ? (
           <Carousel activeIndex={activeIndex} next={next} previous={previous}>

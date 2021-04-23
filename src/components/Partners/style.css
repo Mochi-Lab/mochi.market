@@ -19,8 +19,11 @@
   width: 250px;
   height: 128px;
   margin-bottom: 50px;
-  border: 1px solid rgba(255, 255, 255, 0.04);
-  box-sizing: border-box;
+  border: double 1px transparent;
+  border-radius: 5px;
+  background-image: linear-gradient(#17173a, #17173a), radial-gradient(circle at top left, #FFFF00 -0.08%, #FB3B6A 100.24%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
 }
 
 .partner-card > img {

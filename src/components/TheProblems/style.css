@@ -4,7 +4,7 @@
 
 .the-problems .title-problems .big-text h1 {
   font-weight: bold;
-  color: rgba(117, 49, 119, 1);
+  margin-bottom: 1rem;
 }
 
 .the-problems .title-problems .small-text {
@@ -14,11 +14,12 @@
 
 .small-text {
   font-family: "DM Sans";
+  text-align: center;
   font-style: normal;
   font-weight: 500 !important;
   font-size: 24px;
   line-height: 120.7%;
-  color: #17173A;
+  margin-bottom: 5rem !important;
 }
 
 .the-problems .list-items-problems {
@@ -27,7 +28,6 @@
 
 .the-problems .list-items-problems .item-problem .title-item {
   margin: 1.5rem 0;
-  color: #753177;
   font-weight: bold;
   font-family: "Sassoon Infant Pro";
   font-style: normal;
@@ -41,11 +41,10 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 26px;
-  color: #17173A;
 }
 
 .the-problems .list-items-problems .item-problem {
-  padding: 1rem 0rem; 
+  padding: 1rem 0rem ; 
 }
 
 @media (max-width: 768px) {

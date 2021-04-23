@@ -41,6 +41,10 @@ body {
   background: linear-gradient(99.5deg, #FC5981 0.48%, #A2269B 100%);
 }
 
+.background-purple {
+  background: #753177;
+}
+
 .background-dark {
   background: #17173a;
 }
@@ -75,6 +79,10 @@ body {
   color: #FEEBED;
 }
 
+.white-color {
+  color: #FFFFFF;
+}
+
 .dark-color {
   color: #17173a;
 }
@@ -82,6 +90,13 @@ body {
 .purple-color {
   color: #753177;
 }
+
+.background-gradient-pink {
+  background: -webkit-linear-gradient(45.5deg, #FC5981 -40.52%, #A2269B 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 .rounded-xl {
   border-radius: 0.75rem;

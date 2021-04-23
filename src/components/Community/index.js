@@ -1,5 +1,5 @@
 import './style.css';
-import twitter from 'assets/icons/twitter-w.svg';
+import twitter from 'assets/icons/twitter.svg';
 import tele from 'assets/icons/tele.svg';
 import medium from 'assets/icons/medium.svg';
 import discord from 'assets/icons/discord.svg';

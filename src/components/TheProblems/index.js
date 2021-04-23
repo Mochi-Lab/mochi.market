@@ -7,21 +7,23 @@ import './style.css';
 
 export default function TheProblems() {
   return (
-    <div className='the-problems'>
+    <div className='the-problems background-dark'>
       <div className='container'>
         <div className='title-problems'>
           <div className='big-text'>
-            <h1 className='big-title'>The Problems</h1>
+            <h1 className='big-title white-color'>The Problems</h1>
           </div>
-          <div className='small-text col'>What the early NFT adopters are saying:</div>
+          <div className='small-text col background-gradient-pink'>
+            What the early NFT adopters are saying:
+          </div>
         </div>
         <div className='list-items-problems'>
           <div className='row'>
             <div className='col-6 col-md-3'>
               <div className='item-problem'>
                 <img src={highTicket} alt='item-problems' />
-                <div className='title-item'>High Ticket Size</div>
-                <div className='description-item'>
+                <div className='title-item background-gradient-pink'>High Ticket Size</div>
+                <div className='description-item white-color'>
                   Buying an NFT is expensive (high ticket size) and costly (high transaction fee)
                 </div>
               </div>
@@ -29,8 +31,10 @@ export default function TheProblems() {
             <div className='col-6 col-md-3'>
               <div className='item-problem'>
                 <img src={noProfitable} alt='item-problems' />
-                <div className='title-item'>Lack of monetization strategy</div>
-                <div className='description-item'>
+                <div className='title-item background-gradient-pink'>
+                  Lack of monetization strategy
+                </div>
+                <div className='description-item white-color'>
                   Holding NFT very rarely does provide yield and utility
                 </div>
               </div>
@@ -38,8 +42,8 @@ export default function TheProblems() {
             <div className='col-6 col-md-3'>
               <div className='item-problem'>
                 <img src={difficulToSell} alt='item-problems' />
-                <div className='title-item'>Difficult To Sell</div>
-                <div className='description-item'>
+                <div className='title-item background-gradient-pink'>Difficult To Sell</div>
+                <div className='description-item white-color'>
                   It is difficult to sell an NFT (not enough liquidity)
                 </div>
               </div>
@@ -47,8 +51,8 @@ export default function TheProblems() {
             <div className='col-6 col-md-3'>
               <div className='item-problem'>
                 <img src={frictionCosts} alt='item-problems' />
-                <div className='title-item'>Friction Costs</div>
-                <div className='description-item'>
+                <div className='title-item background-gradient-pink'>Friction Costs</div>
+                <div className='description-item white-color'>
                   Friction costs and untapped participants (lack of interoperability)
                 </div>
               </div>

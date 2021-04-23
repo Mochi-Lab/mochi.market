@@ -8,18 +8,18 @@ import ticket from 'assets/img/ticket.png';
 
 export default function UtilityFeatures() {
   return (
-    <div className='background-light-pink'>
+    <div className='background-dark'>
       <div className='utility-features container'>
         <div className='col-12'>
-          <p className='big-title purple-color utility-title'>Utility features</p>
-          <p className='utility-content'>
+          <p className='big-title white-color utility-title'>Utility features</p>
+          <p className='utility-content background-gradient-pink'>
             The $MOMA tokens give access to a number of special services on the platform, such as:
           </p>
         </div>
         <div className='col-12 fecen' style={{ position: 'relative' }}>
           <div className='center pt-4'>
             {window.innerWidth < 1023 ? (
-              <img className='center' src={smUtilFeat} alt='utilfeat' />
+              <img className='center smUtilFeat' src={smUtilFeat} alt='utilfeat' />
             ) : (
               <img src={utilfeat} alt='utilfeat' />
             )}

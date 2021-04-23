@@ -6,9 +6,7 @@ export default function MomaToken() {
     <div className='moma-token'>
       <div className='container'>
         <div className='title-section'>
-          <h1 className='big-title'>
-            The <b>$MOMA</b> Token
-          </h1>
+          <h1 className='big-title white-color'>The $MOMA Token</h1>
         </div>
         <div className='conten-moma-token'>
           <div className='img-moma'>
@@ -16,7 +14,9 @@ export default function MomaToken() {
           </div>
 
           <div className='desciption-moma'>
-            <div className='title-description'>Governance and community involvement</div>
+            <div className='title-description background-gradient-pink'>
+              Governance and community involvement
+            </div>
             <div className='text-description'>
               The $MOMA governance token was designed to incentivize ecosystem participants to
               contribute to developing the Mochi Ecosystem. <br />

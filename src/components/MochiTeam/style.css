@@ -3,11 +3,15 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  background: linear-gradient(89.9deg, #FB3767 0.42%, #753177 100.25%);
-  border: 1px solid #17173A;
+  background: linear-gradient(99.5deg, #FC5981 0.48%, #A2269B 100%);
+  border: 1px solid #753177;
   box-sizing: border-box;
   border-radius: 5px;
   z-index: 0;
+}
+
+.me-mochi {
+  border: 1px solid #753177 !important;
 }
 
 .mochiteam {

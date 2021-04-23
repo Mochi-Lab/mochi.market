@@ -10,7 +10,7 @@ import tan from 'assets/member/tan.png';
 import andrew from 'assets/member/andrew.jpg';
 
 import iconLinkedin from 'assets/icons/linkedIn.svg';
-import iconTwitter from 'assets/icons/red-tw.svg';
+import iconTwitter from 'assets/icons/twitter.svg';
 
 const members = [
   {
@@ -79,13 +79,13 @@ function Member({ data }) {
         <div style={{ position: 'relative', marginBottom: '24px' }}>
           <div className='member-image team-purble' />
           <div className='member-image'>
-            <img className='memimg' src={image} alt={name + role} />
+            <img className='memimg me-mochi' src={image} alt={name + role} />
           </div>
         </div>
       </div>
 
-      <p className='name dark-color'>{name}</p>
-      <p className='role purple-color'>{role}</p>
+      <p className='name lc-color'>{name}</p>
+      <p className='role lc-color'>{role}</p>
       <div className='footer-card row center'>
         <div className='background-dark' style={{ marginRight: '20px' }}>
           <img src={iconLinkedin} alt='linkedin' onClick={() => window.open(linkedin)} />
@@ -100,10 +100,10 @@ function Member({ data }) {
 
 export default function MochiTeam() {
   return (
-    <div className='background-light'>
+    <div className='background-purple'>
       <div className='container mochiteam'>
         <div className='col-12'>
-          <p className='big-title dark-color'>Team</p>
+          <p className='big-title white-color'>Team</p>
         </div>
         <div className='col-12'>
           <div className='image-area row justify-content-center'>

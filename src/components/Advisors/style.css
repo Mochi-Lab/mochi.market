@@ -44,7 +44,7 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  background: #e9fff9;
+  background: linear-gradient(90deg, #FFFF00 -0.08%, #FB3B6A 100.24%);
   border: 1px solid #17173a;
   box-sizing: border-box;
   border-radius: 5px;

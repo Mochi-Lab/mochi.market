@@ -13,8 +13,8 @@
   width: 100%;
   border-radius: 2px;
   height: 2px;
-  background-color: #753177;
-  border: 2px solid #753177;
+  background-color: #E9FFF9;
+  border: 2px solid #E9FFF9;
 }
 
 .dot {
@@ -26,7 +26,7 @@
   align-items: center;
   width: 25px;
   height: 25px;
-  background: linear-gradient(89.9deg, #fb3767 0.42%, #753177 100.25%);
+  background: linear-gradient(99.5deg, #FC5981 0.48%, #A2269B 100%);
   border-radius: 50%;
 }
 
@@ -84,6 +84,10 @@
     height: 170px;
   }
 
+  .timeline-box {
+    width: 100px;
+  }
+  
   .time-stage {
     font-size: 15px;
   }

@@ -1,6 +1,6 @@
 .navbar-menu {
   padding: 1.5rem 0;
-  background: #feebed;
+  background: #531C55;
 }
 
 .content-navbar {
@@ -12,12 +12,15 @@
   align-items: center;
   align-content: stretch;
 }
+
 .content-navbar .left-navbar {
   max-width: 200px;
 }
+
 .content-navbar .left-navbar img {
   width: 160px;
 }
+
 .content-navbar .right-navbar {
   display: flex;
   flex-direction: row;
@@ -26,6 +29,7 @@
   align-items: center;
   align-content: stretch;
 }
+
 .content-navbar .right-navbar .route-papers,
 .content-navbar .right-navbar .route-faq {
   margin: 0 2rem;
@@ -34,11 +38,13 @@
 .content-navbar .right-navbar {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #753177;
+  color: #FEEBED;
 }
+
 .content-navbar .right-navbar a {
-  color: #753177;
+  color: #FEEBED;
 }
+
 .content-navbar .right-navbar a:hover {
   text-decoration: none;
 }
@@ -46,13 +52,14 @@
 .content-navbar .right-navbar .community-channels {
   margin-left: 5rem;
 }
+
 .content-navbar .right-navbar .community-channels a {
   margin: 0 1rem;
 }
 
 .navbar-menu .btn-bar {
   display: none;
-  color: #753177;
+  color: #FEEBED;
   font-weight: bold;
   font-size: large;
   z-index: 4;
@@ -107,11 +114,13 @@
     margin-left: 0;
     padding: 0.75rem 0 0.75rem 3rem;
   }
+  
   .content-navbar .right-navbar .community-channels:hover {
     transition: all 0.5s;
     background: linear-gradient(100.48deg, #e4609e 7.34%, rgba(228, 96, 158, 0) 100.74%);
     color: white;
   }
+
   .content-navbar .right-navbar .community-channels:hover a svg path {
     transition: all 0.5s;
     fill: white;
@@ -120,6 +129,7 @@
   .content-navbar .right-navbar .community-channels a {
     margin: 0 0.5rem;
   }
+
   .content-navbar .right-navbar .community-channels a:first-child {
     margin-left: 0;
   }

@@ -6,8 +6,8 @@ import hatu from 'assets/advisors/hatu.png';
 import anirban from 'assets/advisors/anirban.jpg';
 import lester from 'assets/advisors/lester.png';
 
-import iconLinkedin from 'assets/icons/linkedIn.svg';
-import iconTwitter from 'assets/icons/red-tw.svg';
+import iconLinkedin from 'assets/icons/linkedin-ad.svg';
+import iconTwitter from 'assets/icons/twitter-ad.svg';
 
 const advisors = [
   {

@@ -11,16 +11,24 @@
   color: #ffffff;
   font-weight: normal;
 }
+
 .footer a p {
   color: #ffffff;
   font-weight: normal;
 }
+
 .footer a:hover {
-  color: deeppink;
+  background: -webkit-linear-gradient(45.5deg, #FC5981 -40.52%, #A2269B 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: deeppink; */
 }
 
 .footer a:hover p {
-  color: deeppink;
+  background: -webkit-linear-gradient(45.5deg, #FC5981 -40.52%, #A2269B 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: deeppink; */
 }
 
 .footer-logo {
