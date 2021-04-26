@@ -27,6 +27,7 @@
 
 .we-bring-to .list-itm-bring .item-bring .text-bring-to li {
   margin: 1rem 0;
+  width: max-content;
   background: linear-gradient(99.5deg, #fc5981 0.48%, #a2269b 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;

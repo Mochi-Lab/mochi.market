@@ -7,7 +7,7 @@ import anirban from 'assets/advisors/anirban.jpg';
 import lester from 'assets/advisors/lester.png';
 
 import iconLinkedin from 'assets/icons/linkedIn.svg';
-import iconTwitter from 'assets/icons/red-tw.svg';
+import iconTwitter from 'assets/icons/tw.svg';
 
 const advisors = [
   {

@@ -3,7 +3,7 @@ import './style.css';
 
 export default function Introductions() {
   return (
-    <div className='introductions background-pink'>
+    <div className='introductions background-dark'>
       <div className='content-into'>
         <div className='intro-left'>
           <div className='first-product sans-font'>

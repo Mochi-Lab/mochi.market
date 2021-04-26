@@ -37,10 +37,6 @@ body {
   display: none;
 }
 
-.background-pink {
-  background: #17173a;
-}
-
 .background-dark {
   background: #17173a;
 }
@@ -49,8 +45,8 @@ body {
   background: #e9fff9;
 }
 
-.background-light-pink {
-  background: #17173a;
+.background-dark-pink {
+  background: #531C55;
 }
 
 .big-title {

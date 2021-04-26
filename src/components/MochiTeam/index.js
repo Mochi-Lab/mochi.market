@@ -10,7 +10,7 @@ import tan from 'assets/member/tan.png';
 import andrew from 'assets/member/andrew.jpg';
 
 import iconLinkedin from 'assets/icons/linkedIn.svg';
-import iconTwitter from 'assets/icons/red-tw.svg';
+import iconTwitter from 'assets/icons/tw.svg';
 
 const members = [
   {
@@ -100,7 +100,7 @@ function Member({ data }) {
 
 export default function MochiTeam() {
   return (
-    <div className='mochiteam'>
+    <div className='mochiteam background-dark-pink'>
       <div className='container'>
         <div className='col-12'>
           <p className='big-title'>Team</p>
