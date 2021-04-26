@@ -8,7 +8,7 @@ import ticket from 'assets/img/ticket.png';
 
 export default function UtilityFeatures() {
   return (
-    <div className='background-light-pink'>
+    <div className='background-dark'>
       <div className='utility-features container'>
         <div className='col-12'>
           <p className='big-title utility-title'>Utility features</p>
@@ -19,7 +19,7 @@ export default function UtilityFeatures() {
         <div className='col-12 fecen' style={{ position: 'relative' }}>
           <div className='center pt-4'>
             {window.innerWidth < 1023 ? (
-              <img className='center' src={smUtilFeat} alt='utilfeat' />
+              <img className='center utilfeat' src={smUtilFeat} alt='utilfeat' />
             ) : (
               <img src={utilfeat} alt='utilfeat' />
             )}
@@ -30,11 +30,13 @@ export default function UtilityFeatures() {
                 <div className='center'>
                   <div className='relcar'>
                     <div className='utili-card-back' />
-                    <div className='utili-card'>
-                      <img src={sales} alt='sales' />
-                      <p className='lc-color'>
-                        Having a discount on transaction fees if transacted in $MOMA tokens.
-                      </p>
+                    <div className='utili-card-border'>
+                      <div className='utili-card'>
+                        <img src={sales} alt='sales' />
+                        <p className='lc-color'>
+                          Having a discount on transaction fees if transacted in $MOMA tokens.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -42,11 +44,13 @@ export default function UtilityFeatures() {
                 <div className='center'>
                   <div className='relcar'>
                     <div className='utili-card-back' />
-                    <div className='utili-card'>
-                      <img src={ticket} alt='ticket' />
-                      <p className='lc-color'>
-                        Getting special offers and rewards for NFT lotteries and airdrops.
-                      </p>
+                    <div className='utili-card-border'>
+                      <div className='utili-card'>
+                        <img src={ticket} alt='ticket' />
+                        <p className='lc-color'>
+                          Getting special offers and rewards for NFT lotteries and airdrops.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -56,11 +60,13 @@ export default function UtilityFeatures() {
                 <div className='center'>
                   <div className='relcar'>
                     <div className='utili-card-back' />
-                    <div className='utili-card'>
-                      <div className='liquidity-box'>
-                        <img className='liquidity' src={liquidity} alt='liquidity' />
+                    <div className='utili-card-border'>
+                      <div className='utili-card'>
+                        <div className='liquidity-box'>
+                          <img className='liquidity' src={liquidity} alt='liquidity' />
+                        </div>
+                        <p className='lc-color'>Provide liquidity to earn more $MOMA.</p>
                       </div>
-                      <p className='lc-color'>Provide liquidity to earn more $MOMA.</p>
                     </div>
                   </div>
                 </div>
@@ -68,9 +74,11 @@ export default function UtilityFeatures() {
                 <div className='center'>
                   <div className='relcar'>
                     <div className='utili-card-back' />
-                    <div className='utili-card'>
-                      <img src={diamon} alt='diamon' />
-                      <p className='lc-color'>Staking to earn NFTs.</p>
+                    <div className='utili-card-border'>
+                      <div className='utili-card'>
+                        <img src={diamon} alt='diamon' />
+                        <p className='lc-color'>Staking to earn NFTs.</p>
+                      </div>
                     </div>
                   </div>
                 </div>

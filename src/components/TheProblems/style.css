@@ -1,6 +1,5 @@
 .the-problems {
   padding: 5rem 0;
-  background: rgba(117, 49, 119, 1);
 }
 
 .the-problems .title-problems .big-text h1 {
@@ -9,6 +8,7 @@
   text-align: start;
   margin-bottom: 0;
   margin-top: 1.5rem;
+  padding-left: 15px;
 }
 
 .the-problems .title-problems .small-text {
@@ -56,6 +56,19 @@
 @media (max-width: 768px) {
   .the-problems .list-items-problems {
     margin: 0;
+  }
+
+  .item-problem > img {
+    width: 43px;
+    height: 43px;
+  }
+
+  .description-item {
+    font-size: 12px;
+  }
+
+  .title-item {
+    font-size: 14px;
   }
 
   .the-problems .list-items-problems .item-problem {

@@ -29,7 +29,7 @@
 }
 
 .first-product > a:hover {
-  background: linear-gradient(99.5deg, #ff02f1 0.48%, #ff02f1 100%);
+  background: linear-gradient(99.5deg, #a2269b 0.48%, #fc5981 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -89,9 +89,11 @@
   background: linear-gradient(99.5deg, #fc5981 0.48%, #a2269b 100%);
   color: white;
   font-weight: bold;
+  border: 0;
   border-radius: 0.55rem;
   padding: 0.5rem 1.2rem;
 }
+
 .introductions .content-into .intro-left .btn-download-paper:hover {
   transform: all 1s;
   background: linear-gradient(99.5deg, #a2269b 0.48%, #fc5981 100%);

@@ -42,7 +42,7 @@
 .list-main-meal .item-main-meal:before {
   position: absolute;
   content: '';
-  background: linear-gradient(89.9deg, #fb3767 0.42%, #753177 100.25%);
+  background: linear-gradient(99.5deg, #FC5981 0.48%, #A2269B 100%);
   z-index: 1;
   display: block;
   top: 5px;

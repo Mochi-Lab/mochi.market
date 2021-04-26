@@ -99,7 +99,7 @@ export default function Roadmap() {
   });
 
   return (
-    <div className='roadmap'>
+    <div className='roadmap background-dark-pink'>
       <div className='container '>
         <div className='col-12'>
           <p className='big-title'>The Roadmap</p>
