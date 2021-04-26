@@ -29,7 +29,7 @@ export default function Introductions() {
           <a
             target='_blank'
             rel='noopener noreferrer'
-            href={`${process.env.PUBLIC_URL}/WhitePaper.pdf`}
+            href='https://drive.google.com/file/d/1v2dKeTgOeqWYa6Js93HRJsquVbAAw1KJ/view?usp=sharing'
           >
             <button type='button' className='btn btn-download-paper'>
               Download Whitepaper

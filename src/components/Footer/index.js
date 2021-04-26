@@ -42,7 +42,7 @@ export default function Footer() {
                   <a
                     target='_blank'
                     rel='noopener noreferrer'
-                    href={`${process.env.PUBLIC_URL}/OnePage.pdf`}
+                    href='https://drive.google.com/file/d/1p5gr8lP1NONWPTiozgHPUZwsbRSpLwB2/view?usp=sharing'
                   >
                     One Page
                   </a>
@@ -51,7 +51,7 @@ export default function Footer() {
                   <a
                     target='_blank'
                     rel='noopener noreferrer'
-                    href={`${process.env.PUBLIC_URL}/PitchDeck.pdf`}
+                    href='https://drive.google.com/file/d/15Dj5Igoftcl3ddC7ePkfa3Z1h_4F--lQ/view?usp=sharing'
                   >
                     Pitch Deck
                   </a>
@@ -60,7 +60,7 @@ export default function Footer() {
                   <a
                     target='_blank'
                     rel='noopener noreferrer'
-                    href={`${process.env.PUBLIC_URL}/WhitePaper.pdf`}
+                    href='https://drive.google.com/file/d/1v2dKeTgOeqWYa6Js93HRJsquVbAAw1KJ/view?usp=sharing'
                   >
                     White Paper
                   </a>
@@ -69,7 +69,7 @@ export default function Footer() {
                   <a
                     target='_blank'
                     rel='noopener noreferrer'
-                    href={`${process.env.PUBLIC_URL}/LightPaper.pdf`}
+                    href='https://drive.google.com/file/d/1XmWdBMIPJxZB9VYISMXmAXp3dPZsNkgk/view?usp=sharing'
                   >
                     Light Paper
                   </a>
