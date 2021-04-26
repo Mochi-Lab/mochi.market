@@ -13,6 +13,7 @@ import blackmamba from 'assets/partners/blackmamba.png';
 import mintedlab from 'assets/partners/mintedlab.png';
 import manticorecapital from 'assets/partners/manticorecapital.png';
 import halborn from 'assets/partners/halborn-black.svg';
+import polygon from 'assets/partners/polygon-logowhite.svg';
 
 const members = [
   {
@@ -26,6 +27,12 @@ const members = [
     url: 'https://www.plasmnet.io/',
     name: 'plasmnet',
     className: 'plasm',
+  },
+  {
+    image: polygon,
+    url: 'https://polygon.technology/',
+    name: 'polygon',
+    className: 'polygon',
   },
   {
     image: magnus,

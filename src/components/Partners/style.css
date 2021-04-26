@@ -89,7 +89,7 @@
   height: 75px;
   width: 80px;
 }
-.blackmanba {
+.blackmamba {
   height: 35px;
   width: 200px;
 }
@@ -103,6 +103,10 @@
 }
 
 .halborn {
+  height: 65px;
+  width: 150px;
+}
+.polygon {
   height: 65px;
   width: 150px;
 }
@@ -133,7 +137,7 @@
     height: 50px;
     width: 175px;
   }
-  .blackmanba {
+  .blackmamba {
     height: 30px;
     width: 170px;
   }
@@ -225,7 +229,7 @@
     height: 28.8px;
     width: 31.6px;
   }
-  .blackmanba {
+  .blackmamba {
     height: 15.8px;
     width: 85.6px;
   }
@@ -238,6 +242,10 @@
     width: 70.6px;
   }
   .halborn {
+    height: 30.8px;
+    width: 70.6px;
+  }
+  .polygon {
     height: 30.8px;
     width: 70.6px;
   }
