@@ -88,6 +88,16 @@
     font-size: 10.3561px;
   }
 
+  .member-image {
+    width: 140px;
+    height: 140px;
+  }
+
+  .member-image > img {
+    width: 145px;
+    height: 145px;
+  }
+
   .advisors .member-image {
     width: 109.5px;
     height: 109.5px;
