@@ -49,6 +49,10 @@ body {
   background: #531C55;
 }
 
+.background-gradient-pink{
+  background: linear-gradient(99.5deg, #fc5981 0.48%, #a2269b 100%);
+}
+
 .big-title {
   font-family: 'Sassoon Infant Pro';
   margin-bottom: 64px;

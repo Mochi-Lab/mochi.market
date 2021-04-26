@@ -66,7 +66,7 @@ export default function FAQ() {
   return (
     <>
       <Navbar />
-      <div className='background-pink center container-flud'>
+      <div className='background-gradient-pink center container-flud'>
         <div className='row justify-content-center'>
           <p className='title-faq col-12'>faq</p>
           <div className='questions col-12 col-md-10'>

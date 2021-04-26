@@ -11,7 +11,7 @@ export default function Papers() {
   return (
     <>
       <Navbar />
-      <div className='papers background-pink'>
+      <div className='papers background-gradient-pink'>
         <div className='container'>
           <div className='title-paper'>
             <h1 className='big-title light-pink'>Papers</h1>

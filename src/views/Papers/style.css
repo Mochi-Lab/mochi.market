@@ -17,7 +17,7 @@
   z-index: 2;
   padding: 2rem;
   box-shadow: #e97397;
-  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px;
+  box-shadow: rgb(128 28 91 / 60%) 5px 5px;
   transition: all 0.6s;
 }
 .papers .list-item-papers .item-paper .content-item-paper:hover {
