@@ -9,7 +9,7 @@ import blocksync from 'assets/partners/blocksync.png';
 import mercurius from 'assets/partners/mercurius.png';
 import moonWhale from 'assets/partners/moon-whale.png';
 import plasm from 'assets/partners/plasm.png';
-import blackmanba from 'assets/partners/blackmanba.png';
+import blackmamba from 'assets/partners/blackmamba.png';
 import mintedlab from 'assets/partners/mintedlab.png';
 import manticorecapital from 'assets/partners/manticorecapital.png';
 import halborn from 'assets/partners/halborn-black.svg';
@@ -76,10 +76,10 @@ const members = [
     className: 'mercurius',
   },
   {
-    image: blackmanba,
+    image: blackmamba,
     url: 'https://blackmamba.ventures/',
     name: 'Black Manba',
-    className: 'blackmanba',
+    className: 'blackmamba',
   },
   {
     image: mintedlab,
