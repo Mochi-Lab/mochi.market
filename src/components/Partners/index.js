@@ -1,6 +1,5 @@
 import './style.css';
 import cinchBlock from 'assets/partners/cinchblock.png';
-import blockStar from 'assets/partners/blockstar.svg';
 import btxCapital from 'assets/partners/btx-capital.png';
 import magnus from 'assets/partners/magnus_capital.png';
 import raptor from 'assets/partners/raptor.png';
@@ -69,12 +68,6 @@ const members = [
     url: 'https://www.blocksync.com/',
     name: 'blocksync ventures',
     className: 'blocksync',
-  },
-  {
-    image: blockStar,
-    url: 'https://blockstar.vc/',
-    name: 'block star',
-    className: 'blockStar',
   },
   {
     image: mercurius,
