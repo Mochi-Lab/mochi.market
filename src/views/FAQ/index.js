@@ -193,6 +193,37 @@ export default function FAQ() {
 
                   <Collapse isOpen={showAnswer6}>
                     <p className='answer'>Our initial listing will be priced at $0.1</p>
+                    <p className='answer'>
+                      Now that we have listed our MOMA token, for current price, please see one of
+                      these websites below:
+                    </p>
+                    <p className='answer'>
+                      <a
+                        href='https://www.coingecko.com/en/coins/mochi-market'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
+                        CoinGecko
+                      </a>
+                    </p>
+                    <p className='answer'>
+                      <a
+                        href='https://coinmarketcap.com/currencies/mochi-market/'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
+                        CoinMarketCap
+                      </a>
+                    </p>
+                    <p className='answer'>
+                      <a
+                        href='https://www.dextools.io/app/uniswap/pair-explorer/0x611abc072ee91c0cc19ffef97ac7e69a1a7a17ec'
+                        target='_blank'
+                        rel='noreferrer'
+                      >
+                        DexTools
+                      </a>
+                    </p>
                   </Collapse>
                 </div>
               </div>
