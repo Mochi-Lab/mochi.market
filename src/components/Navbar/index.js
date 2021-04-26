@@ -18,7 +18,7 @@ export default function Navbar() {
             </div>
           </Link>
           <div className='btn-bar' onClick={() => setBtnMenu(!btnMenu)}>
-            {btnMenu ? <CloseOutlined /> : <img src={iconBar} alt='btn-bar' />}
+            {btnMenu ? <CloseOutlined /> : <img className='iconBar' src={iconBar} alt='btn-bar' />}
           </div>
           <div className={`right-navbar  ${btnMenu ? 'active' : ''}`}>
             <Link to='/papers'>
