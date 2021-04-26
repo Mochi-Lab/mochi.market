@@ -2,7 +2,6 @@ import './style.css';
 import cinchBlock from 'assets/partners/cinchblock.png';
 import blockStar from 'assets/partners/blockstar.svg';
 import btxCapital from 'assets/partners/btx-capital.png';
-import existential from 'assets/partners/existential.png';
 import magnus from 'assets/partners/magnus_capital.png';
 import raptor from 'assets/partners/raptor.png';
 import x21 from 'assets/partners/x21.svg';
@@ -64,12 +63,6 @@ const members = [
     url: 'https://www.cinchblock.com/',
     name: 'cinch block',
     className: 'cinchBlock',
-  },
-  {
-    image: existential,
-    url: 'https://exst.vc/',
-    name: 'existential capital',
-    className: 'existential',
   },
   {
     image: blocksync,
