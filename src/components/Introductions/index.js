@@ -62,6 +62,17 @@ export default function Introductions() {
               </button>
             </a>
           </div>
+          <div>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://docs.google.com/forms/d/14YF6yKCiAIeDUojWqZj4auAzkg0nyf_zfuvYiZSnB_0/viewform?edit_requested=true'
+            >
+              <button type='button' className='btn-introductions'>
+                NFT Launchpad Application Form
+              </button>
+            </a>
+          </div>
         </div>
         <div className='intro-right'>
           <img src={imgIntroductions} alt='img-introductions' />

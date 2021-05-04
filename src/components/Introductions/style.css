@@ -92,7 +92,7 @@
   border: 0;
   border-radius: 0.55rem;
   padding: 0.5rem 1.2rem;
-  min-width: 225px;
+  min-width: 300px;
 }
 
 .introductions .content-into .intro-left .btn-download-paper:hover {
@@ -116,7 +116,7 @@
   border: 0;
   border-radius: 0.55rem;
   padding: 0.5rem 1.2rem;
-  min-width: 225px;
+  min-width: 300px;
 }
 
 .introductions .btn-introductions:hover {
