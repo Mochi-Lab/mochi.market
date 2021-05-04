@@ -26,15 +26,42 @@ export default function Introductions() {
             liquidity in the NFT market, lack of monetization strategy for NFT holders during their
             holding period, and lack of crosschain usage between NFTs and FTs.
           </div>
-          <a
-            target='_blank'
-            rel='noopener noreferrer'
-            href='https://drive.google.com/file/d/1v2dKeTgOeqWYa6Js93HRJsquVbAAw1KJ/view?usp=sharing'
-          >
-            <button type='button' className='btn btn-download-paper'>
-              Download Whitepaper
-            </button>
-          </a>
+          <div>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://drive.google.com/file/d/1v2dKeTgOeqWYa6Js93HRJsquVbAAw1KJ/view?usp=sharing'
+            >
+              <button type='button' className='btn btn-download-paper'>
+                Download Whitepaper
+              </button>
+            </a>
+          </div>
+          <div>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://app.uniswap.org/#/swap?inputCurrency=0xbd1848e1491d4308ad18287a745dd4db2a4bd55b'
+            >
+              <button type='button' className='btn-introductions'>
+                Buy $MOMA at Uniswap
+              </button>
+            </a>
+          </div>
+          <div>
+            <a target='_blank' rel='noopener noreferrer' href='https://www.gate.io/trade/MOMA_USDT'>
+              <button type='button' className='btn-introductions'>
+                Buy $MOMA at Gate.io
+              </button>
+            </a>
+          </div>
+          <div>
+            <a target='_blank' rel='noopener noreferrer' href='https://farm.mochi.market'>
+              <button type='button' className='btn-introductions'>
+                MOMA-ETH LP Farming
+              </button>
+            </a>
+          </div>
         </div>
         <div className='intro-right'>
           <img src={imgIntroductions} alt='img-introductions' />
