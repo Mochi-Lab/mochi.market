@@ -20,10 +20,10 @@
   align-items: center;
   align-content: stretch;
   width: 100%;
+  padding: 2.5rem 0;
 }
 
 .introductions .content-into .intro-left {
-  position: absolute;
   width: 60%;
   left: 0;
 }
@@ -85,17 +85,18 @@
 }
 
 .introductions .content-into .intro-left .btn-download-paper {
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   background: linear-gradient(99.5deg, #fc5981 0.48%, #a2269b 100%);
   color: white;
   font-weight: bold;
   border: 0;
   border-radius: 0.55rem;
   padding: 0.5rem 1.2rem;
+  min-width: 225px;
 }
 
 .introductions .content-into .intro-left .btn-download-paper:hover {
-  transform: all 1s;
+  transition: 0.5s;
   background: linear-gradient(99.5deg, #a2269b 0.48%, #fc5981 100%);
 }
 
@@ -105,6 +106,22 @@
 
 .introductions .intro-right img {
   width: 100%;
+}
+
+.introductions .btn-introductions {
+  margin: 0.5rem 0;
+  background: linear-gradient(99.5deg, rgb(5 126 255 / 51%) 0.48%, #007bff 100%);
+  color: white;
+  font-weight: bold;
+  border: 0;
+  border-radius: 0.55rem;
+  padding: 0.5rem 1.2rem;
+  min-width: 225px;
+}
+
+.introductions .btn-introductions:hover {
+  transition: 0.5s;
+  background: linear-gradient(99.5deg, #007bff 0.48%, rgb(5 126 255 / 51%) 100%);
 }
 
 @media (min-width: 576px) {
