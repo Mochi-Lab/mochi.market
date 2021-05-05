@@ -7,7 +7,6 @@ import hoang from 'assets/member/hoang.png';
 import kien from 'assets/member/kien.png';
 import nghia from 'assets/member/nghia.png';
 import tan from 'assets/member/tan.png';
-import andrew from 'assets/member/andrew.jpg';
 
 import iconLinkedin from 'assets/icons/linkedIn.svg';
 import iconTwitter from 'assets/icons/tw.svg';
@@ -61,13 +60,6 @@ const members = [
     role: 'CO-FOUNDER & DEV',
     linkedin: 'https://www.linkedin.com/in/l%C3%AA-th%C3%A0nh-c%C3%B4ng-b937a1164/',
     twitter: 'https://twitter.com/lwconga7',
-  },
-  {
-    image: andrew,
-    name: 'Andrew Fennell',
-    role: 'COMMUNITY MANAGER \n & BDM',
-    linkedin: 'https://www.linkedin.com/in/andrewfennellbdm/',
-    twitter: 'https://twitter.com/Andrewfunbags',
   },
 ];
 
