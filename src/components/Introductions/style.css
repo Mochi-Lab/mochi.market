@@ -110,7 +110,7 @@
 
 .introductions .btn-introductions {
   margin: 0.5rem 0;
-  background: linear-gradient(99.5deg, rgb(5 126 255 / 51%) 0.48%, #007bff 100%);
+  background: linear-gradient(99.5deg, #fc5981 0.48%, #a2269b 100%);
   color: white;
   font-weight: bold;
   border: 0;
@@ -121,7 +121,7 @@
 
 .introductions .btn-introductions:hover {
   transition: 0.5s;
-  background: linear-gradient(99.5deg, #007bff 0.48%, rgb(5 126 255 / 51%) 100%);
+  background: linear-gradient(99.5deg, #a2269b 0.48%, #fc5981 100%);
 }
 
 @media (min-width: 576px) {
