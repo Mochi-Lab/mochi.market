@@ -41,7 +41,18 @@ export default function Introductions() {
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href='https://app.uniswap.org/#/swap?inputCurrency=0xbd1848e1491d4308ad18287a745dd4db2a4bd55b'
+              href='https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xB72842D6F5feDf91D22d56202802Bb9A79C6322E'
+            >
+              <button type='button' className='btn-introductions'>
+                Buy $MOMA at PancakeSwap
+              </button>
+            </a>
+          </div>
+          <div>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://app.uniswap.org/#/swap?outputCurrency=0xbd1848e1491d4308ad18287a745dd4db2a4bd55b&use=V2'
             >
               <button type='button' className='btn-introductions'>
                 Buy $MOMA at Uniswap
@@ -56,13 +67,31 @@ export default function Introductions() {
             </a>
           </div>
           <div>
-            <a target='_blank' rel='noopener noreferrer' href='https://farm.mochi.market'>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://www.bitmart.com/trade/en?layout=basic&symbol=MOMA_USDT'
+            >
               <button type='button' className='btn-introductions'>
-                MOMA-ETH LP Farming
+                Buy $MOMA at Bitmart
               </button>
             </a>
           </div>
           <div>
+            <a target='_blank' rel='noopener noreferrer' href='https://farm.mochi.market'>
+              <button type='button' className='btn-introductions'>
+                $MOMA Liquidity Farming
+              </button>
+            </a>
+          </div>
+          <div>
+            <a target='_blank' rel='noopener noreferrer' href='https://multichain.xyz/swap'>
+              <button type='button' className='btn-introductions'>
+                $MOMA ETH-BSC Bridge
+              </button>
+            </a>
+          </div>
+          {/* <div>
             <a
               target='_blank'
               rel='noopener noreferrer'
@@ -72,7 +101,7 @@ export default function Introductions() {
                 NFT Launchpad Application Form
               </button>
             </a>
-          </div>
+          </div> */}
         </div>
         <div className='intro-right'>
           <img src={imgIntroductions} alt='img-introductions' />
