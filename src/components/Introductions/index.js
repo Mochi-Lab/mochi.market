@@ -66,7 +66,7 @@ export default function Introductions() {
               </button>
             </a>
           </div>
-          <div>
+          {/* <div>
             <a
               target='_blank'
               rel='noopener noreferrer'
@@ -76,7 +76,7 @@ export default function Introductions() {
                 Buy $MOMA at Bitmart
               </button>
             </a>
-          </div>
+          </div> */}
           <div>
             <a target='_blank' rel='noopener noreferrer' href='https://farm.mochi.market'>
               <button type='button' className='btn-introductions'>
