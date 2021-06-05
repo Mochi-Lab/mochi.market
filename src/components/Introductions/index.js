@@ -27,13 +27,9 @@ export default function Introductions() {
             holding period, and lack of crosschain usage between NFTs and FTs.
           </div>
           <div>
-            <a
-              target='_blank'
-              rel='noopener noreferrer'
-              href='https://drive.google.com/file/d/1v2dKeTgOeqWYa6Js93HRJsquVbAAw1KJ/view?usp=sharing'
-            >
+            <a target='_blank' rel='noopener noreferrer' href='https://app.mochi.market'>
               <button type='button' className='btn btn-download-paper'>
-                Download Whitepaper
+                Enter App
               </button>
             </a>
           </div>

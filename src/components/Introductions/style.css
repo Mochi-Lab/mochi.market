@@ -150,7 +150,7 @@
 
 @media (max-width: 992px) {
   .introductions .content-into {
-    padding: 7rem 0;
+    margin: 7rem 0;
     position: relative;
     display: flex;
     flex-direction: column;
