@@ -85,6 +85,14 @@ export default function Navbar() {
                 </svg>
               </a>
             </div>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://app.mochi.market'
+              className='btn-enter-app'
+            >
+              <button type='button'>Enter App</button>
+            </a>
           </div>
         </div>
       </div>
