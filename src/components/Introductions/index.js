@@ -56,23 +56,23 @@ export default function Introductions() {
             </a>
           </div>
           <div>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href='https://quickswap.exchange/#/swap?outputCurrency=0xe3ab61371ecc88534c522922a026f2296116c109'
+            >
+              <button type='button' className='btn-introductions'>
+                Buy $MOMA at Quickswap
+              </button>
+            </a>
+          </div>
+          <div>
             <a target='_blank' rel='noopener noreferrer' href='https://www.gate.io/trade/MOMA_USDT'>
               <button type='button' className='btn-introductions'>
                 Buy $MOMA at Gate.io
               </button>
             </a>
           </div>
-          {/* <div>
-            <a
-              target='_blank'
-              rel='noopener noreferrer'
-              href='https://www.bitmart.com/trade/en?layout=basic&symbol=MOMA_USDT'
-            >
-              <button type='button' className='btn-introductions'>
-                Buy $MOMA at Bitmart
-              </button>
-            </a>
-          </div> */}
           <div>
             <a target='_blank' rel='noopener noreferrer' href='https://farm.mochi.market'>
               <button type='button' className='btn-introductions'>
@@ -87,17 +87,17 @@ export default function Introductions() {
               </button>
             </a>
           </div>
-          {/* <div>
+          <div>
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href='https://docs.google.com/forms/d/14YF6yKCiAIeDUojWqZj4auAzkg0nyf_zfuvYiZSnB_0/viewform?edit_requested=true'
+              href='https://anyswap.exchange/bridge?inputCurrency=0xe3ab61371ecc88534c522922a026f2296116c109&network=polygon'
             >
               <button type='button' className='btn-introductions'>
-                NFT Launchpad Application Form
+                $MOMA ETH-Polygon Bridge
               </button>
             </a>
-          </div> */}
+          </div>
         </div>
         <div className='intro-right'>
           <img src={imgIntroductions} alt='img-introductions' />
