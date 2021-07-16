@@ -14,7 +14,7 @@ import mintedlab from 'assets/partners/mintedlab.png';
 import manticorecapital from 'assets/partners/manticorecapital.png';
 import halborn from 'assets/partners/halborn-black.svg';
 import polygon from 'assets/partners/polygon-logowhite.svg';
-import wanaka from 'assets/partners/wanaka.svg';
+import wanaka from 'assets/partners/wanaka.png';
 
 const members = [
   {
@@ -111,7 +111,7 @@ const members = [
     image: wanaka,
     url: 'https://wanakafarm.com/',
     name: 'Wanaka',
-    className: 'halborn',
+    className: 'wanaka',
   },
 ];
 
