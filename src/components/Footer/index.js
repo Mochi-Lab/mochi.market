@@ -10,6 +10,9 @@ export default function Footer() {
           <div className='col-12 col-md-12 col-lg-4 mb-5'>
             <div className='col'>
               <img className='footer-logo' src={logo} alt='mochi logo' />
+              <a href='mailto:contact@mochilab.org'>
+                <p className='company-name sasoon-font'>contact@mochilab.org</p>
+              </a>
               <p className='company-name sasoon-font'>MochiLab Foundation Ltd</p>
               <p className='company-address sasoon-font'>
                 3 Fraser Street #5-25 Duo Tower, Singapore
