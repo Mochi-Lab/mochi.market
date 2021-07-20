@@ -12,7 +12,7 @@ function App() {
         <Switch>
           <Route exact path='/' component={LandingPage} />
           <Route exact path='/faq' component={FAQ} />
-          <Route exact path='/papers' component={Papers} />
+          {/* <Route exact path='/papers' component={Papers} /> */}
           <Route
             exact
             path='/privacy-policy-and-terms-conditions'

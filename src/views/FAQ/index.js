@@ -95,7 +95,7 @@ export default function FAQ() {
               </div>
             </div>
 
-            <div className='item col-12 col-md-10'>
+            {/* <div className='item col-12 col-md-10'>
               <div className='question'>
                 <div className='question__content' onClick={() => visibleAnswer2()}>
                   <p className='title-question'>What is the aim of Mochi.Market?</p>
@@ -122,7 +122,7 @@ export default function FAQ() {
                   </Collapse>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className='item col-12 col-md-10'>
               <div className='question'>

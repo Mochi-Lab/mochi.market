@@ -39,7 +39,7 @@ export default function Footer() {
                   <p className='fttn-ct'>Privacy Policy & Terms and Conditions</p>
                 </Link>
               </div>
-              <div className='col-12 col-lg-4 mb-5'>
+              {/* <div className='col-12 col-lg-4 mb-5'>
                 <p className='fttn-hd mb-4'>Documents</p>
                 <p className='fttn-ct mb-4'>
                   <a
@@ -77,7 +77,7 @@ export default function Footer() {
                     Light Paper
                   </a>
                 </p>
-              </div>
+              </div> */}
               <div className='col-12 col-lg-4 mb-5'>
                 <p className='fttn-hd mb-4'>Community</p>
                 <a href='https://t.me/mochi_market' target='_blank' rel='noreferrer'>

@@ -21,9 +21,9 @@ export default function Navbar() {
             {btnMenu ? <CloseOutlined /> : <img className='iconBar' src={iconBar} alt='btn-bar' />}
           </div>
           <div className={`right-navbar  ${btnMenu ? 'active' : ''}`}>
-            <Link to='/papers'>
+            {/* <Link to='/papers'>
               <div className='route-papers'>Papers</div>
-            </Link>
+            </Link> */}
             <Link to='/faq'>
               <div className='route-faq'>FAQs</div>
             </Link>
