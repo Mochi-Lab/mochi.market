@@ -70,7 +70,7 @@ export default function Navbar() {
                   />
                 </svg>
               </a>
-              <a href='https://discord.com/invite/TarCMncJNm' target='_blank' rel='noreferrer'>
+              {/* <a href='https://discord.com/invite/TarCMncJNm' target='_blank' rel='noreferrer'>
                 <svg
                   width='21'
                   height='24'
@@ -83,7 +83,7 @@ export default function Navbar() {
                     fill='#ffffff'
                   />
                 </svg>
-              </a>
+              </a> */}
             </div>
             <a
               target='_blank'

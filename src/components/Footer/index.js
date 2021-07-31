@@ -32,9 +32,9 @@ export default function Footer() {
                 <p className='fttn-ct mb-4'>
                   <Link to='/#Roadmap'>Roadmap</Link>
                 </p>
-                {/* <p className='fttn-ct'>
+                <p className='fttn-ct'>
                   <Link to='/#Team'>Team</Link>
-                </p> */}
+                </p>
                 <Link to='/privacy-policy-and-terms-conditions'>
                   <p className='fttn-ct'>Privacy Policy & Terms and Conditions</p>
                 </Link>
@@ -89,9 +89,9 @@ export default function Footer() {
                 <a href='https://mochi-market.medium.com/' target='_blank' rel='noreferrer'>
                   <p className='fttn-ct mb-4'>Medium</p>
                 </a>
-                <a href='https://discord.gg/TarCMncJNm' target='_blank' rel='noreferrer'>
+                {/* <a href='https://discord.gg/TarCMncJNm' target='_blank' rel='noreferrer'>
                   <p className='fttn-ct'>Discord</p>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

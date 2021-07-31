@@ -64,9 +64,9 @@ export default function LandingPage() {
       <div ref={(el) => (sections.current['Roadmap'] = el)}>
         <Roadmap />
       </div>
-      {/* <div ref={(el) => (sections.current['Team'] = el)}>
+      <div ref={(el) => (sections.current['Team'] = el)}>
         <MochiTeam />
-      </div> */}
+      </div>
       {/* <Advisors /> */}
       {/* <Partners /> */}
       <Footer />
