@@ -22,7 +22,7 @@ export default function Roadmap() {
     },
     {
       stage: '2022',
-      content: 'Metaverse',
+      content: 'Metaverse & AR VR Support',
     },
     {
       stage: '2023',
