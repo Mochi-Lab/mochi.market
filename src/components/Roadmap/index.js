@@ -14,15 +14,15 @@ export default function Roadmap() {
     },
     {
       stage: 'Q3, 2021',
-      content: 'Mochi DEX',
+      content: 'Onboard new users & NFT Games',
     },
     {
       stage: 'Q4, 2021',
-      content: 'NFT Launchpad & Mochi Integration',
+      content: 'UIUX reworks & New Incentive System',
     },
     {
       stage: '2022',
-      content: 'Growing Mochi Ecosystem',
+      content: 'Metaverse',
     },
     {
       stage: '2023',
