@@ -68,7 +68,7 @@ export default function Roadmap() {
             {timelines.slice(from, to).map((timeline, index) => (
               <div key={index} className='center'>
                 <div className='dot '>
-                  <div className={`${timeline.stage === 'Q2, 2021' ? '' : 'inactive'}`} />
+                  <div className={`${timeline.stage === 'Q4, 2021' ? '' : 'inactive'}`} />
                 </div>
               </div>
             ))}
