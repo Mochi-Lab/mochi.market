@@ -2,7 +2,6 @@ import './style.css';
 
 import chien from 'assets/member/chien.png';
 import cong from 'assets/member/cong.png';
-import ha from 'assets/member/ha.png';
 import hoang from 'assets/member/hoang.png';
 import kien from 'assets/member/kien.png';
 import nghia from 'assets/member/nghia.png';
@@ -13,39 +12,18 @@ import iconTwitter from 'assets/icons/tw.svg';
 
 const members = [
   {
-    image: ha,
-    name: 'Sophia Ho',
-    role: 'CO-FOUNDER & CEO',
-    linkedin: 'https://www.linkedin.com/in/sophia-ha-ho/',
-    twitter: 'https://twitter.com/SophiaHaHo',
-  },
-  {
     image: kien,
     name: 'Kevin Do',
-    role: 'CO-FOUNDER & CTO',
+    role: 'CO-FOUNDER & CEO',
     linkedin: 'https://www.linkedin.com/in/dotrungkien',
     twitter: 'https://twitter.com/kevindo90',
   },
   {
     image: chien,
     name: 'Charles Tran',
-    role: 'CO-FOUNDER & CPO',
+    role: 'CO-FOUNDER & CTO',
     linkedin: 'https://www.linkedin.com/in/chien-tran-b52339159',
     twitter: 'https://twitter.com/',
-  },
-  {
-    image: hoang,
-    name: 'Taio Newgate',
-    role: 'CO-FOUNDER & DEV',
-    linkedin: 'https://www.linkedin.com/in/taio-newgate-7027771b1/',
-    twitter: 'https://twitter.com/SnowstormAnivia',
-  },
-  {
-    image: nghia,
-    name: 'Nolan Ngo',
-    role: 'CO-FOUNDER & DEV',
-    linkedin: 'https://www.linkedin.com/in/ngo-nolan-b5b67720b/',
-    twitter: 'https://twitter.com/nolanngo97',
   },
   {
     image: tan,
@@ -55,11 +33,26 @@ const members = [
     twitter: 'https://twitter.com/TnTrnh5',
   },
   {
+    image: nghia,
+    name: 'Nolan Ngo',
+    role: 'CO-FOUNDER & DEV',
+    linkedin: 'https://www.linkedin.com/in/ngo-nolan-b5b67720b/',
+    twitter: 'https://twitter.com/nolanngo97',
+  },
+
+  {
     image: cong,
     name: 'Roberto Le',
     role: 'CO-FOUNDER & DEV',
     linkedin: 'https://www.linkedin.com/in/l%C3%AA-th%C3%A0nh-c%C3%B4ng-b937a1164/',
     twitter: 'https://twitter.com/lwconga7',
+  },
+  {
+    image: hoang,
+    name: 'Taio Newgate',
+    role: 'CO-FOUNDER & DEV',
+    linkedin: 'https://www.linkedin.com/in/taio-newgate-7027771b1/',
+    twitter: 'https://twitter.com/SnowstormAnivia',
   },
 ];
 

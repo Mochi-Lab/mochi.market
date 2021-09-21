@@ -323,7 +323,7 @@ export default function FAQ() {
                   <Collapse isOpen={showAnswer10}>
                     <p className='answer'>
                       The team behind Mochi is spread out internationally while the entity is based
-                      in Singapore.
+                      in British Virgin Islands.
                     </p>
                   </Collapse>
                 </div>

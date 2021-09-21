@@ -15,7 +15,7 @@ export default function Footer() {
               </a>
               <p className='company-name sasoon-font'>MochiLab Foundation Ltd</p>
               <p className='company-address sasoon-font'>
-                3 Fraser Street #5-25 Duo Tower, Singapore
+                Craigmuir Chambers, Road Town, Tortola, VG 1110, British Virgin Islands
               </p>
             </div>
           </div>
