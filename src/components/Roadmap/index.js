@@ -14,20 +14,20 @@ export default function Roadmap() {
     },
     {
       stage: 'Q3, 2021',
-      content: 'Onboard new users & NFT Games',
+      content: 'New NFT Game partners onboarding & new UIUX design',
     },
     {
       stage: 'Q4, 2021',
-      content: 'UIUX reworks & New Incentive System',
+      content: 'Mochi V2 & Mochi Lottery & new Incentive System',
     },
     {
       stage: '2022',
-      content: 'Metaverse & AR VR Support',
+      content: 'New chains deployment & Cross-chains NFT',
     },
-    {
-      stage: '2023',
-      content: 'Community Driven Ecosystem',
-    },
+    // {
+    //   stage: '2023',
+    //   content: 'Community Driven Ecosystem',
+    // },
   ];
   const items = [
     {

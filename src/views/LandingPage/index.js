@@ -68,7 +68,7 @@ export default function LandingPage() {
         <MochiTeam />
       </div>
       {/* <Advisors /> */}
-      {/* <Partners /> */}
+      <Partners />
       <Footer />
       <div
         className={`btn-back-top ${showScrollTop ? 'is-visible' : ''}`}
