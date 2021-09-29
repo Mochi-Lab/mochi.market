@@ -91,7 +91,7 @@ const members = [
   },
   {
     image: mintedlab,
-    url: '',
+    url: 'https://minted-lab.com/about',
     name: 'Minted Lab',
     className: 'mintedlab',
   },
