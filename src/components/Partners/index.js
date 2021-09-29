@@ -8,7 +8,7 @@ import daomaker from 'assets/partners/daomaker.png';
 import blocksync from 'assets/partners/blocksync.png';
 import mercurius from 'assets/partners/mercurius.png';
 import moonWhale from 'assets/partners/moon-whale.png';
-import plasm from 'assets/partners/plasm.png';
+import plasm from 'assets/partners/astar-2.png';
 import blackmamba from 'assets/partners/blackmamba.png';
 import mintedlab from 'assets/partners/mintedlab.png';
 import manticorecapital from 'assets/partners/manticorecapital.png';
@@ -25,9 +25,9 @@ const members = [
   },
   {
     image: plasm,
-    url: 'https://www.plasmnet.io/',
+    url: 'https://www.astar.network/',
     name: 'plasmnet',
-    className: 'plasm',
+    className: 'polygon',
   },
   {
     image: polygon,
