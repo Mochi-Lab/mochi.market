@@ -43,7 +43,7 @@ export default function Community() {
               <img src={medium} alt='medium' />
             </div>
           </a>
-          <a
+          {/* <a
             className='col-3 center mg-0'
             href='https://discord.gg/ZHq7arVS'
             target='_blank'
@@ -52,7 +52,7 @@ export default function Community() {
             <div className='cm-icon'>
               <img src={discord} alt='discord' />
             </div>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
