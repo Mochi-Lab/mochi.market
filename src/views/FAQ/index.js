@@ -7,7 +7,6 @@ import Footer from 'components/Footer';
 
 export default function FAQ() {
   const [showAnswer1, setShowAnswer1] = useState(false);
-  const [showAnswer2, setShowAnswer2] = useState(false);
   const [showAnswer3, setShowAnswer3] = useState(false);
   const [showAnswer4, setShowAnswer4] = useState(false);
   const [showAnswer5, setShowAnswer5] = useState(false);
@@ -17,15 +16,11 @@ export default function FAQ() {
   const [showAnswer9, setShowAnswer9] = useState(false);
   const [showAnswer10, setShowAnswer10] = useState(false);
   const [showAnswer11, setShowAnswer11] = useState(false);
-  const [showAnswer12, setShowAnswer12] = useState(false);
 
   const visibleAnswer1 = () => {
     setShowAnswer1(!showAnswer1);
   };
 
-  const visibleAnswer2 = () => {
-    setShowAnswer2(!showAnswer2);
-  };
   const visibleAnswer3 = () => {
     setShowAnswer3(!showAnswer3);
   };
@@ -57,10 +52,6 @@ export default function FAQ() {
 
   const visibleAnswer11 = () => {
     setShowAnswer11(!showAnswer11);
-  };
-
-  const visibleAnswer12 = () => {
-    setShowAnswer12(!showAnswer12);
   };
 
   return (
@@ -266,10 +257,6 @@ export default function FAQ() {
                       exchange.
                       <br />
                       <br />
-                      Mochi DEX - Where users can use automated market making (“AMM”) mechanisms to
-                      exchange between FTs and NFTs on the same or cross-chains.
-                      <br />
-                      <br />
                       Mochi Rewards System - To increase user interaction in the Mochi.Market
                       ecosystem, there will be a lot of reward systems for users such as trading
                       reward, referral, airdrop, lottery, and NFT launchpad.
@@ -358,37 +345,6 @@ export default function FAQ() {
                       Harmony, and other chains such Ethereum, Cosmos, Polkadot, Solana, Near
                       Protocol and other blockchains, allowing users to tap into various blockchain
                       ecosystems.
-                    </p>
-                  </Collapse>
-                </div>
-              </div>
-            </div>
-
-            <div className='item col-12 col-md-10'>
-              <div className='question'>
-                <div className='question__content' onClick={() => visibleAnswer12()}>
-                  <p className='title-question'>What is the Mochi.Market Airdrop Service?</p>
-                  <img
-                    width='25px'
-                    className={showAnswer12 ? 'up-icon' : 'up-icon rotate-icon'}
-                    src={upIcon}
-                    alt='faq'
-                  />
-                  <Collapse isOpen={showAnswer12}>
-                    <p className='answer'>
-                      As we are warming up to opening our doors, we would like to reward and
-                      encourage early testers and adopters for giving our service a try. This will
-                      help us to gather feedback and improve. An NFT will be considered similar to a
-                      lottery ticket. Everyone who holds an NFT will be able to take part in the
-                      airdrop campaign. Only NFT holders will be able to claim the airdrop. For more
-                      info on the first{' '}
-                      <a
-                        href='https://mochi-market.medium.com/mochi-market-airdrop-service-81ff03bb3454'
-                        target='_blank'
-                        rel='noreferrer'
-                      >
-                        Mochi.Market Airdrop Service
-                      </a>
                     </p>
                   </Collapse>
                 </div>

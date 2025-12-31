@@ -27,7 +27,7 @@ export default function Introductions() {
             holding period, and lack of crosschain usage between NFTs and FTs.
           </div>
           <div>
-            <a target='_blank' rel='noopener noreferrer' href='https://app.mochi.market'>
+            <a target='_blank' rel='noopener noreferrer' href='https://mochilab.org/market'>
               <button type='button' className='btn btn-download-paper'>
                 Enter App
               </button>
@@ -37,7 +37,7 @@ export default function Introductions() {
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href='https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xB72842D6F5feDf91D22d56202802Bb9A79C6322E'
+              href='https://pancakeswap.finance/swap?outputCurrency=0xB72842D6F5feDf91D22d56202802Bb9A79C6322E'
             >
               <button type='button' className='btn-introductions'>
                 Buy $MOMA at PancakeSwap
@@ -59,7 +59,7 @@ export default function Introductions() {
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href='https://quickswap.exchange/#/swap?outputCurrency=0xe3ab61371ecc88534c522922a026f2296116c109'
+              href='https://dapp.quickswap.exchange/swap/best/ETH/0xE3AB61371ECc88534C522922a026f2296116C109?chainId=137'
             >
               <button type='button' className='btn-introductions'>
                 Buy $MOMA at Quickswap
@@ -67,32 +67,21 @@ export default function Introductions() {
             </a>
           </div>
           <div>
-            <a target='_blank' rel='noopener noreferrer' href='https://www.gate.io/trade/MOMA_USDT'>
-              <button type='button' className='btn-introductions'>
-                Buy $MOMA at Gate.io
-              </button>
-            </a>
-          </div>
-          <div>
-            <a target='_blank' rel='noopener noreferrer' href='https://farm.mochi.market'>
+            <a target='_blank' rel='noopener noreferrer' href='https://mochilab.org/farm'>
               <button type='button' className='btn-introductions'>
                 $MOMA Liquidity Farming
               </button>
             </a>
           </div>
           <div>
-            <a target='_blank' rel='noopener noreferrer' href='https://multichain.xyz/swap'>
+            <a target='_blank' rel='noopener noreferrer' href='https://multichain.org/'>
               <button type='button' className='btn-introductions'>
                 $MOMA ETH-BSC Bridge
               </button>
             </a>
           </div>
           <div>
-            <a
-              target='_blank'
-              rel='noopener noreferrer'
-              href='https://anyswap.exchange/bridge?inputCurrency=0xe3ab61371ecc88534c522922a026f2296116c109&network=polygon'
-            >
+            <a target='_blank' rel='noopener noreferrer' href='https://anyswap.cc/'>
               <button type='button' className='btn-introductions'>
                 $MOMA ETH-Polygon Bridge
               </button>

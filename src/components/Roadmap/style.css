@@ -1,6 +1,7 @@
 .timeline-box {
-  margin-top: 20px;
-  width: 160px;
+  margin-top: 0; /* handled by .underline spacing so we have a single source of truth */
+  flex: 1 1 160px; /* allow boxes to share space evenly but not shrink below content */
+  max-width: 160px;
   text-align: center;
 }
 
@@ -18,9 +19,9 @@
 }
 
 .dot {
-  position: absolute;
-  top: -12px;
-  margin: auto;
+  /* Keep dots in the flex flow so they align with their timeline labels */
+  position: relative;
+  top: -12px; /* lift the dot above the line */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +52,13 @@
 }
 
 .underline {
-  margin-top: 20px;
+  margin-top: 40px; /* increase space between the line/dots and the timeline text */
+}
+
+/* Stronger selector to ensure the timeline boxes are pushed down even if other rules
+   or frameworks (Bootstrap) interfere. Use !important cautiously. */
+.underline .timeline-box {
+  margin-top: 40px !important;
 }
 
 .carousel {
@@ -72,18 +79,39 @@
 
 .underline {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between; /* align items under the dots precisely */
+  align-items: flex-start;
+  gap: 12px;
 }
 
 .line-dot {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between; /* match underline distribution */
+  align-items: center; /* ensure dots sit centered on the line */
   width: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Make sure the dot itself stays centered within its slot */
+.line-dot > .center {
+  flex: 1 1 0;
 }
 
 @media (max-width: 992px) {
   .timeline-box {
     width: 120px;
+  }
+  .underline {
+    margin-top: 32px;
+  }
+
+  .underline .timeline-box {
+    margin-top: 32px !important;
   }
 }
 @media (max-width: 767px) {
@@ -101,5 +129,12 @@
 
   .timeline-box {
     width: 100px;
+  }
+  .underline {
+    margin-top: 24px;
+  }
+
+  .underline .timeline-box {
+    margin-top: 24px !important;
   }
 }

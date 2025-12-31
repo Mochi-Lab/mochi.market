@@ -1,24 +1,22 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LandingPage from './views/LandingPage';
 import PrivacyPolicyAndTermsConditions from './views/PrivacyPolicyAndTermsConditions';
 import FAQ from './views/FAQ';
-import Papers from './views/Papers';
 import './App.css';
 
 function App() {
   return (
     <div className='App'>
       <BrowserRouter>
-        <Switch>
-          <Route exact path='/' component={LandingPage} />
-          <Route exact path='/faq' component={FAQ} />
-          {/* <Route exact path='/papers' component={Papers} /> */}
+        <Routes>
+          <Route path='/' element={<LandingPage />} />
+          <Route path='/faq' element={<FAQ />} />
+          {/* <Route path='/papers' element={<Papers />} /> */}
           <Route
-            exact
             path='/privacy-policy-and-terms-conditions'
-            component={PrivacyPolicyAndTermsConditions}
+            element={<PrivacyPolicyAndTermsConditions />}
           />
-        </Switch>
+        </Routes>
       </BrowserRouter>
     </div>
   );

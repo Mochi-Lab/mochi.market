@@ -88,7 +88,7 @@ export default function Navbar() {
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href='https://app.mochi.market'
+              href='https://mochilab.org/market'
               className='btn-enter-app'
             >
               <button type='button'>Enter App</button>

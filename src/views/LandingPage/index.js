@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
-import { useHistory } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import Navbar from 'components/Navbar';
 import Introductions from 'components/Introductions';
 import Community from 'components/Community';
@@ -9,9 +9,6 @@ import MainMeal from 'components/MainMeal';
 import MomaToken from 'components/MomaToken';
 import UtilityFeatures from 'components/UtilityFeatures';
 import Roadmap from 'components/Roadmap';
-import MochiTeam from 'components/MochiTeam';
-import Advisors from 'components/Advisors';
-import Partners from 'components/Partners';
 import Footer from 'components/Footer';
 
 import { VerticalAlignTopOutlined } from '@ant-design/icons';
@@ -19,7 +16,7 @@ import { VerticalAlignTopOutlined } from '@ant-design/icons';
 import './style.css';
 
 export default function LandingPage() {
-  let history = useHistory();
+  const location = useLocation();
   const sections = useRef([]);
   const [showScrollTop, setShowScrollTop] = useState(false);
   const toggleVisibility = () => {
@@ -32,13 +29,14 @@ export default function LandingPage() {
 
   useEffect(() => {
     window.addEventListener('scroll', toggleVisibility);
+    return () => window.removeEventListener('scroll', toggleVisibility);
   }, []);
 
   useEffect(() => {
-    if (!!history.location.hash) {
-      executeScroll(history.location.hash.slice(1));
+    if (!!location?.hash) {
+      executeScroll(location.hash.slice(1));
     }
-  });
+  }, [location]);
 
   const executeScroll = (strSection) => {
     if (!strSection || !sections.current[strSection]) return;
@@ -68,7 +66,7 @@ export default function LandingPage() {
         <MochiTeam />
       </div> */}
       {/* <Advisors /> */}
-      <Partners />
+      {/* <Partners /> */}
       <Footer />
       <div
         className={`btn-back-top ${showScrollTop ? 'is-visible' : ''}`}

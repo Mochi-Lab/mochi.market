@@ -1,5 +1,5 @@
 import './style.css';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Carousel, CarouselItem, CarouselIndicators } from 'reactstrap';
 
 export default function Roadmap() {
@@ -14,7 +14,7 @@ export default function Roadmap() {
     },
     {
       stage: 'Q3, 2021',
-      content: 'Mochi launchpad',
+      content: 'Mochipad',
     },
     {
       stage: '2023',

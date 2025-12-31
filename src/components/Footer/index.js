@@ -32,9 +32,6 @@ export default function Footer() {
                 <p className='fttn-ct mb-4'>
                   <Link to='/#Roadmap'>Roadmap</Link>
                 </p>
-                <p className='fttn-ct'>
-                  <Link to='/#Team'>Team</Link>
-                </p>
                 <Link to='/privacy-policy-and-terms-conditions'>
                   <p className='fttn-ct'>Privacy Policy & Terms and Conditions</p>
                 </Link>
